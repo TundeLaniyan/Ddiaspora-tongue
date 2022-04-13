@@ -1,20 +1,26 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Provider } from 'react-redux';
+import { NavigationContainer } from '@react-navigation/native';
+
+import configureStore from './store/configureStore';
+import Application from './app/navigation/Navigation';
 
 export default function App() {
+  const store = configureStore();
+
+  store.subscribe(() => {
+    const { entities, user } = store.getState()
+    const { progress, exercise } = entities;
+    console.log("Updated Game!!!");
+    // console.log(progress.value);
+    
+    // console.log('state', {progress, exercise})
+  });
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Provider store={store}>
+      <NavigationContainer>
+        <Application />
+      </NavigationContainer>
+    </Provider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

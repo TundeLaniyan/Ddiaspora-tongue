@@ -1,0 +1,18 @@
+export default {
+  HOME: 'Home',
+  LEARNING: 'My Learning',
+  ACCOUNT: 'Account',
+  WELCOME: 'Welcome',
+  SIGNIN: 'Log in',
+  SIGNUP: 'Sign up',
+  SIGNOUT: 'Signout',
+  LESSON: 'Lesson',
+  TASK: 'Task',
+  EASY: 'Easy',
+  HARD: 'Hard',
+  MEMORY: 'Memory',
+  READING: 'Reading',
+  RAPID: 'Rapid',
+  EXERCISE: 'Exercise',
+  ENDGAME: 'End Game',
+}
