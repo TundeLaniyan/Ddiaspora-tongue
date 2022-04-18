@@ -149,7 +149,8 @@ const styles = StyleSheet.create({
     display: 'flex',
     // justifyContent: 'space-around',
     justifyContent: 'center',
-    alignContent: 'center',
+    // alignItems: 'stretch',
+    // alignContent: 'stretch',
     // flex: 1,
     flexWrap: 'wrap',
     /* border: 2.5px solid rgba(0, 0, 0, 0.178), */
@@ -158,6 +159,8 @@ const styles = StyleSheet.create({
     // paddingVertical: '1%',
     // padding: 1% 0,
     // marginBottom: 90,
+    // height: 250,
+    // backgroundColor: 'red',
   },
 });
 

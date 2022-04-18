@@ -3,6 +3,7 @@ import { View, StyleSheet, TouchableOpacity, Text } from 'react-native';
 import { useDispatch } from 'react-redux'
 
 import { categorySelect } from '../../store/exercise';
+import colors from '../config/colors';
 import routes from '../navigation/routes';
 
 type Props = {
@@ -23,7 +24,7 @@ function SelectionCard({ navigation, title, Image, style, category }: Props): Re
   
   return (
     <TouchableOpacity style={[styles.container, style]} onPress={handlePress}>
-      <Image width='100%' height='70%' />
+      <Image width='100%' height='64%' />
       <View style={styles.categoryContent}>
         <Text style={styles.categoryTitle}>{title}</Text>
       </View>
@@ -33,16 +34,17 @@ function SelectionCard({ navigation, title, Image, style, category }: Props): Re
 
 const styles = StyleSheet.create({
   container: {
-    borderColor: 'black',
-    borderWidth: 5,
+    borderColor: 'rgba(0, 0, 0, 0.25)',
+    borderWidth: .5,
     borderRadius: 5,
     marginVertical: 10,
     textAlign: 'center',
     width: 160,
-    height: 160
+    height: 160,
     // boxShadow: 0 0 10 rgb(0, 0, 0 / 25%),
     // marginHorizontal: 10,
-    // padding: 30,
+    padding: 20,
+    backgroundColor: colors.light,
     // height: '40%',
     // width: '35%',
   },
@@ -50,7 +52,8 @@ const styles = StyleSheet.create({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '30%',
+    height: '45%',
+    paddingVertical: 5,
   },
   categoryTitle: {
     // font-family: Gilroy-Black,
@@ -58,6 +61,8 @@ const styles = StyleSheet.create({
     fontWeight: '300',
     lineHeight: 21,
     color: '#333333',
+    textAlign: 'center',
+    textTransform: 'capitalize',
   }
 });
 

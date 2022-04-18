@@ -17,13 +17,13 @@ import File15 from "./adé-fún-wọn.m4a"
 import File16 from "./adé-fún-yín.m4a"
 import File17 from "./adé-fún-ọ.m4a"
 import File18 from "./adìẹ.m4a"
-import File19 from "./ago-mélòó-ló-lù?.m4a"
+import File19 from "./ago-mélòó-ló-lù.m4a"
 import File20 from "./ago-mẹrin-ìrọ̀lẹ́-la-wà.m4a"
 import File21 from "./ahọ́n.m4a"
 import File22 from "./ajirebi.m4a"
 import File23 from "./ajá.m4a"
 import File24 from "./akẹ́kọ̀ọ́-ni-mi.m4a"
-import File25 from "./akọ̀wé-wo-lo-nífẹ̀ẹ́-sí-jù?.m4a"
+import File25 from "./akọ̀wé-wo-lo-nífẹ̀ẹ́-sí-jù.m4a"
 import File26 from "./apọ̀dà-ni-ẹ.m4a"
 import File27 from "./ara-mi-kò-yá,-ó-rẹ̀mí-gan-an.m4a"
 import File28 from "./ara-mi-kò-yá.m4a"
@@ -36,17 +36,17 @@ import File34 from "./aṣọ-yìí-dára.m4a"
 import File35 from "./b.m4a"
 import File36 from "./ba.m4a"
 import File37 from "./bákan-náà.m4a"
-import File38 from "./be.m4a"
-import File39 from "./bi-mo-bá-jí-lówùúrọ̀.m4a"
-import File40 from "./bi.m4a"
-import File41 from "./bí-mo-bá.m4a"
-import File42 from "./bo.m4a"
-import File43 from "./bu.m4a"
-import File44 from "./bà.m4a"
-import File45 from "./bàbá.m4a"
-import File46 from "./bàtà.m4a"
-import File47 from "./bá.m4a"
-import File48 from "./báwo-ló-ṣe-mọ̀?.m4a"
+import File38 from "./báwo-ló-ṣe-mọ̀.m4a"
+import File39 from "./be.m4a"
+import File40 from "./bi-mo-bá-jí-lówùúrọ̀.m4a"
+import File41 from "./bi.m4a"
+import File42 from "./bí-mo-bá.m4a"
+import File43 from "./bo.m4a"
+import File44 from "./bu.m4a"
+import File45 from "./bà.m4a"
+import File46 from "./bàbá.m4a"
+import File47 from "./bàtà.m4a"
+import File48 from "./bá.m4a"
 import File49 from "./báwo-ni-gbogbo-yin.m4a"
 import File50 from "./báwo-ni-ojú-ọjọ́-lónìí.m4a"
 import File51 from "./báwo-ni.m4a"
@@ -69,23 +69,23 @@ import File67 from "./bọ́.m4a"
 import File68 from "./d.m4a"
 import File69 from "./da.m4a"
 import File70 from "./dáhùn.m4a"
-import File71 from "./dárí-jì.m4a"
-import File72 from "./de.m4a"
-import File73 from "./di.m4a"
-import File74 from "./dọ̀bálẹ̀.m4a"
-import File75 from "./du.m4a"
-import File76 from "./dà.m4a"
-import File77 from "./dàda.m4a"
-import File78 from "./dá.m4a"
-import File79 from "./dákun-dúró-fún-mi-díẹ̀-si.m4a"
-import File80 from "./dákun-máa-ba-lọ.m4a"
-import File81 from "./dákun-máa-pariwo-jù.m4a"
-import File82 from "./dákun-panumọ́.m4a"
-import File83 from "./dákun-rìn-díẹ̀-díẹ̀.m4a"
-import File84 from "./dákun-sọ̀rọ̀-díẹ̀-díẹ̀.m4a"
-import File85 from "./dákun-wọlé.m4a"
-import File86 from "./dákun-ǹjẹ́-o-lè-tún-gbólóhùn-yẹn-sọ.m4a"
-import File87 from "./dákun-ṣe-ó-le-pe-ambulance?.m4a"
+import File71 from "./dákun-ṣe-ó-le-pe-ambulance.m4a"
+import File72 from "./dárí-jì.m4a"
+import File73 from "./de.m4a"
+import File74 from "./di.m4a"
+import File75 from "./dọ̀bálẹ̀.m4a"
+import File76 from "./du.m4a"
+import File77 from "./dà.m4a"
+import File78 from "./dàda.m4a"
+import File79 from "./dá.m4a"
+import File80 from "./dákun-dúró-fún-mi-díẹ̀-si.m4a"
+import File81 from "./dákun-máa-ba-lọ.m4a"
+import File82 from "./dákun-máa-pariwo-jù.m4a"
+import File83 from "./dákun-panumọ́.m4a"
+import File84 from "./dákun-rìn-díẹ̀-díẹ̀.m4a"
+import File85 from "./dákun-sọ̀rọ̀-díẹ̀-díẹ̀.m4a"
+import File86 from "./dákun-wọlé.m4a"
+import File87 from "./dákun-ǹjẹ́-o-lè-tún-gbólóhùn-yẹn-sọ.m4a"
 import File88 from "./dákun-ṣé-o-lè-sọ-ní-ẹ̀ẹ̀kan-si.m4a"
 import File89 from "./dákun-ẹ-ti-pè-sílẹ̀-láti-gba-àyè.m4a"
 import File90 from "./dè.m4a"
@@ -213,7 +213,7 @@ import File211 from "./ìwẹ̀.m4a"
 import File212 from "./ìwọ̀-oòrùn.m4a"
 import File213 from "./iṣu-àti-ẹyin-ló-ń-wù-mí-jẹ.m4a"
 import File214 from "./iṣu.m4a"
-import File215 from "./iṣẹ́-wo-ló-ń-ṣe?.m4a"
+import File215 from "./iṣẹ́-wo-ló-ń-ṣe.m4a"
 import File216 from "./j.m4a"
 import File217 from "./jagunjagun.m4a"
 import File218 from "./jalè.m4a"
@@ -243,22 +243,22 @@ import File241 from "./kúrò.m4a"
 import File242 from "./kà.m4a"
 import File243 from "./ké.m4a"
 import File244 from "./kéde.m4a"
-import File245 from "./kí-ló-dé?.m4a"
+import File245 from "./kí-ló-dé.m4a"
 import File246 from "./kí-ló-fa-ẹ̀rín.m4a"
 import File247 from "./kí-ló-fẹ́-jẹ.m4a"
 import File248 from "./kí-ni-o-sọ-ní-isìnyìí.m4a"
-import File249 from "./kí-ni-yẹn?.m4a"
+import File249 from "./kí-ni-yẹn.m4a"
 import File250 from "./kí-ẹ-ní-òpin-ọ̀sẹ̀-ayọ̀.m4a"
 import File251 from "./kílé-ó-le-dára-sí-i.m4a"
-import File252 from "./kín-ló-ń-ṣe?.m4a"
+import File252 from "./kín-ló-ń-ṣe.m4a"
 import File253 from "./kín-ni-nọ́mbà-ẹ̀rọ-rẹ.m4a"
-import File254 from "./kín-ni-orúkọ-rẹ?.m4a"
+import File254 from "./kín-ni-orúkọ-rẹ.m4a"
 import File255 from "./kín-ni-èrò-tìrẹ.m4a"
-import File256 from "./kín-ni-ó-fẹ́-ṣe-ní-ọ̀la?.m4a"
+import File256 from "./kín-ni-ó-fẹ́-ṣe-ní-ọ̀la.m4a"
 import File257 from "./kín-ni-ó-gbé-jẹ-tí-o-fi-ń-bá-mi-sọ̀rọ̀-bá-yẹn.m4a"
-import File258 from "./kín-ni-ó-ti-ṣe-lónìí?.m4a"
-import File259 from "./kín-ni-ó-wù-yín-rà?.m4a"
-import File260 from "./kín-ni-ó-wù-ọ́-láti-ṣe-ní-ọ̀la?.m4a"
+import File258 from "./kín-ni-ó-ti-ṣe-lónìí.m4a"
+import File259 from "./kín-ni-ó-wù-yín-rà.m4a"
+import File260 from "./kín-ni-ó-wù-ọ́-láti-ṣe-ní-ọ̀la.m4a"
 import File261 from "./kín-ni-ó-ṣe-ní-àná.m4a"
 import File262 from "./kín-ni-ẹ-fẹ́-mu.m4a"
 import File263 from "./kò-sí-nnkan-tó-kàn-mí-nípa-rẹ.m4a"
@@ -361,19 +361,19 @@ import File359 from "./mọ́kànlá.m4a"
 import File360 from "./mọ́ímọ́í.m4a"
 import File361 from "./n-ò-jẹ-ẹ̀wà.m4a"
 import File362 from "./n.m4a"
-import File363 from "./níbo-lo-ti-sọ-ẹ̀rọ-ìbánisọ̀rọ̀-rẹ-nù.m4a"
-import File364 from "./nígbà-gbogbo.m4a"
-import File365 from "./nítorí.m4a"
-import File366 from "./nnkan-náà-bà-mí-lọ́kàn-jẹ̀-ẹ́.m4a"
-import File367 from "./nnkan-tí-o-sọ-kò-yé-mi.m4a"
-import File368 from "./nnkan-tí-ó-ń-ṣe-yìí-kò-yé-mi.m4a"
-import File369 from "./no.m4a"
-import File370 from "./ní-òní-mi-ò-ní-àkókò-fún.m4a"
-import File371 from "./ní-ọdún-yìí-mi-ò-fẹ́-dáwọ̀ọ́-ìdùnnú.m4a"
-import File372 from "./ní-ọ̀la-mo-fẹ́-rí-bàbá-mi.m4a"
-import File373 from "./níbo-lo-lọ-ní-ìrọ̀lẹ́-àná?.m4a"
-import File374 from "./níbo-lo-ti-ń-ṣisẹ́?.m4a"
-import File375 from "./níbo-lo-wà?.m4a"
+import File363 from "./níbo-lo-ti-ń-ṣisẹ́.m4a"
+import File364 from "./níbo-lo-ti-sọ-ẹ̀rọ-ìbánisọ̀rọ̀-rẹ-nù.m4a"
+import File365 from "./níbo-lo-wà.m4a"
+import File366 from "./nígbà-gbogbo.m4a"
+import File367 from "./nítorí.m4a"
+import File368 from "./nnkan-náà-bà-mí-lọ́kàn-jẹ̀-ẹ́.m4a"
+import File369 from "./nnkan-tí-o-sọ-kò-yé-mi.m4a"
+import File370 from "./nnkan-tí-ó-ń-ṣe-yìí-kò-yé-mi.m4a"
+import File371 from "./no.m4a"
+import File372 from "./ní-òní-mi-ò-ní-àkókò-fún.m4a"
+import File373 from "./ní-ọdún-yìí-mi-ò-fẹ́-dáwọ̀ọ́-ìdùnnú.m4a"
+import File374 from "./ní-ọ̀la-mo-fẹ́-rí-bàbá-mi.m4a"
+import File375 from "./níbo-lo-lọ-ní-ìrọ̀lẹ́-àná.m4a"
 import File376 from "./níbo-lo-ń-lọ.m4a"
 import File377 from "./nílé.m4a"
 import File378 from "./níníọlá.m4a"
@@ -434,117 +434,117 @@ import File432 from "./se-daada-le-ji.m4a"
 import File433 from "./stand-up---copy.m4a"
 import File434 from "./sá.m4a"
 import File435 from "./sílé.m4a"
-import File436 from "./ṣé-ẹ-máa-nífẹ̀ẹ́-sí-wíínì.m4a"
-import File437 from "./ṣé-òtútù-kò-mú-ọ.m4a"
-import File438 from "./ṣé-yìnyín-kò-jábọ́.m4a"
-import File439 from "./t.m4a"
-import File440 from "./ta-ló.m4a"
-import File441 from "./ta-ni-olówó-ajá-yìí.m4a"
-import File442 from "./ta-ni-yìí?.m4a"
-import File443 from "./ta-ni.m4a"
-import File444 from "./tata.m4a"
-import File445 from "./tà.m4a"
-import File446 from "./táyé.m4a"
-import File447 from "./táíwò.m4a"
-import File448 from "./tòlótòló.m4a"
-import File449 from "./tẹ́.m4a"
-import File450 from "./u.m4a"
-import File451 from "./w.m4a"
-import File452 from "./waiter,-èló-ni-owó-wa.m4a"
-import File453 from "./waiter,-ẹ-jọ̀ọ́-ẹ-bá-mi-mú-àtẹ-oúnjẹ-yín-wá.m4a"
-import File454 from "./what-will-you-like-to-buy?.m4a"
-import File455 from "./who-are-you?.m4a"
-import File456 from "./wọ́n-wà-dáadáa.m4a"
-import File457 from "./wá.m4a"
-import File458 from "./wálé-kò-wá-ilé.m4a"
-import File459 from "./wò.m4a"
-import File460 from "./wọ́n-jẹ-ẹ̀wà.m4a"
-import File461 from "./wọ́n.m4a"
-import File462 from "./wọ́rọ́wọ́.m4a"
-import File463 from "./y.m4a"
-import File464 from "./ya-àwòrán-àgùntàn-fún-mi.m4a"
-import File465 from "./ya.m4a"
-import File466 from "./yes.m4a"
-import File467 from "./yẹni.m4a"
-import File468 from "./yìnyín-kò-jábọ́.m4a"
-import File469 from "./yorùbá.m4a"
-import File470 from "./yóò-wù-mí-láti-ra-máàpù-ìlú.m4a"
-import File471 from "./yà.m4a"
-import File472 from "./yá.m4a"
-import File473 from "./yó.m4a"
-import File474 from "./yẹra.m4a"
-import File475 from "./àbá-yìí-da-pọ̀.m4a"
-import File476 from "./àbúrò.m4a"
-import File477 from "./àgùntàn.m4a"
-import File478 from "./àkòrí-yìí-gbayì-pọ̀.m4a"
-import File479 from "./àlàáfíà-ara-a-má-jẹ́.m4a"
-import File480 from "./àlá-mi-láti-jẹ́-kí-ilé-ayé-yìí-dára-si.m4a"
-import File481 from "./àlùwàlá.m4a"
-import File482 from "./àmàlà.m4a"
-import File483 from "./àná.m4a"
-import File484 from "./àwa.m4a"
-import File485 from "./àwọn-ni-ó-jẹ́.m4a"
-import File486 from "./àwọn-ọmọdé-pe-ara-wọn-jọ-láti-ṣeré.m4a"
-import File487 from "./àwọn.m4a"
-import File488 from "./àwọ̀-ara-mi-kò-gbà-ìgbàkugbà.m4a"
-import File489 from "./èló-ni-gbogbo-rẹ̀-jẹ́-papọ̀.m4a"
-import File490 from "./èmi-ni-mo-jẹ́.m4a"
-import File491 from "./èmi.m4a"
-import File492 from "./ènìyàn.m4a"
-import File493 from "./èrò-ọkàn-mi-pọ.m4a"
-import File494 from "./ètè.m4a"
-import File495 from "./èèyàn-ni-ẹ.m4a"
-import File496 from "./èèyàn.m4a"
-import File497 from "./èéjì.m4a"
-import File498 from "./ìdí.m4a"
-import File499 from "./ìfàsẹ́yìn.m4a"
-import File500 from "./ìgbà-wo-lo-ma-dáwó-mi-padà.m4a"
-import File501 from "./ìgúnpá.m4a"
-import File502 from "./ìkíni-ní-èdè-yorùbá.m4a"
-import File503 from "./ìwọ-ni-ó-jẹ́.m4a"
-import File504 from "./ìwọ.m4a"
-import File505 from "./ìyàwó.m4a"
-import File506 from "./òbí.m4a"
-import File507 from "./ògbẹ-ń-gbẹ-mi.m4a"
-import File508 from "./òní.m4a"
-import File509 from "./òróró.m4a"
-import File510 from "./òtútù-kó-sí-mi-láyà,-mo-sì-wúkọ̀-ní-gbogbo-àárọ̀.m4a"
-import File511 from "./òtútù-mú-mi-lánàá.m4a"
-import File512 from "./òtútù-ń-mú-mi.m4a"
-import File513 from "./òtútù-ń-mú.m4a"
-import File514 from "./òun-ni-ó-jẹ́.m4a"
-import File515 from "./òun.m4a"
-import File516 from "./òṣogbo.m4a"
-import File517 from "./òṣèré-wo-lo-nífẹ̀ẹ́-sí-jù.m4a"
-import File518 from "./ó-dà-àárọ̀.m4a"
-import File519 from "./ó-dàbọ̀.m4a"
-import File520 from "./ó-jẹ-ẹ̀wà.m4a"
-import File521 from "./ó-mú-aṣọ-kékeré-kan-lọ́wọ́.m4a"
-import File522 from "./ó-sì-ń-rìn-yíká-agbo-náà,-ó-ń-dá-orin.m4a"
-import File523 from "./ó-ti-rẹwà-púpò-jù.m4a"
-import File524 from "./ó-ti-wọ́n-jù.m4a"
-import File525 from "./ó-wù-mí-láti-ra-bàtà.m4a"
-import File526 from "./ó.m4a"
-import File527 from "./ǹ-jẹ́-ẹni-kankan-jókòó-sí-orí-àga-yìí.m4a"
-import File528 from "./ṣ.m4a"
-import File529 from "./ṣe-o-lè-ràn-mí-lọ́wọ́?.m4a"
-import File530 from "./ṣe-o-lè-ṣe-àlàyé-ìtumọ̀-ọ̀rọ̀-yìí?.m4a"
-import File531 from "./ṣe-o-nílò-ìrànlọ́wọ́?.m4a"
-import File532 from "./ṣe-sùúrù.m4a"
-import File533 from "./ṣe-wà-á-mu-tea.m4a"
-import File534 from "./ṣe-ẹ-ní-àtẹ-oúnjẹ.m4a"
-import File535 from "./ṣe.m4a"
-import File536 from "./ṣé-mo-lè-bí-ẹ-bi-ẹ-ní-ìbéèrè-kan.m4a"
-import File537 from "./ṣé-nnkan-kan-wáà-tí-ó-máa-ń-dà-ọ́-láàmú.m4a"
-import File538 from "./ṣé-o-fara-mọ?.m4a"
-import File539 from "./ṣé-o-ní-olólùfẹ́-obìnrin.m4a"
-import File540 from "./ṣé-o-ní-olólùfẹ́-ọkùnrin.m4a"
-import File541 from "./ṣé-o-ní-ìfẹ́-mi.m4a"
-import File542 from "./ṣé-o-ti-jẹun-dáadáa.m4a"
-import File543 from "./ṣé-o-ti-ṣe-ìgbéyàwó?.m4a"
+import File436 from "./ṣe-o-lè-ṣe-àlàyé-ìtumọ̀-ọ̀rọ̀-yìí.m4a"
+import File437 from "./ṣe-o-nílò-ìrànlọ́wọ́.m4a"
+import File438 from "./ṣé-ẹ-máa-nífẹ̀ẹ́-sí-wíínì.m4a"
+import File439 from "./ṣé-o-ti-ṣe-ìgbéyàwó.m4a"
+import File440 from "./ṣé-òtútù-kò-mú-ọ.m4a"
+import File441 from "./ṣé-yìnyín-kò-jábọ́.m4a"
+import File442 from "./t.m4a"
+import File443 from "./ta-ló.m4a"
+import File444 from "./ta-ni-olówó-ajá-yìí.m4a"
+import File445 from "./ta-ni-yìí.m4a"
+import File446 from "./ta-ni.m4a"
+import File447 from "./tata.m4a"
+import File448 from "./tà.m4a"
+import File449 from "./táyé.m4a"
+import File450 from "./táíwò.m4a"
+import File451 from "./tòlótòló.m4a"
+import File452 from "./tẹ́.m4a"
+import File453 from "./u.m4a"
+import File454 from "./w.m4a"
+import File455 from "./waiter,-èló-ni-owó-wa.m4a"
+import File456 from "./waiter,-ẹ-jọ̀ọ́-ẹ-bá-mi-mú-àtẹ-oúnjẹ-yín-wá.m4a"
+import File457 from "./what-will-you-like-to-buy.m4a"
+import File458 from "./who-are-you.m4a"
+import File459 from "./wọ́n-wà-dáadáa.m4a"
+import File460 from "./wá.m4a"
+import File461 from "./wálé-kò-wá-ilé.m4a"
+import File462 from "./wò.m4a"
+import File463 from "./wọ́n-jẹ-ẹ̀wà.m4a"
+import File464 from "./wọ́n.m4a"
+import File465 from "./wọ́rọ́wọ́.m4a"
+import File466 from "./y.m4a"
+import File467 from "./ya-àwòrán-àgùntàn-fún-mi.m4a"
+import File468 from "./ya.m4a"
+import File469 from "./yes.m4a"
+import File470 from "./yẹni.m4a"
+import File471 from "./yìnyín-kò-jábọ́.m4a"
+import File472 from "./yorùbá.m4a"
+import File473 from "./yóò-wù-mí-láti-ra-máàpù-ìlú.m4a"
+import File474 from "./yà.m4a"
+import File475 from "./yá.m4a"
+import File476 from "./yó.m4a"
+import File477 from "./yẹra.m4a"
+import File478 from "./àbá-yìí-da-pọ̀.m4a"
+import File479 from "./àbúrò.m4a"
+import File480 from "./àgùntàn.m4a"
+import File481 from "./àkòrí-yìí-gbayì-pọ̀.m4a"
+import File482 from "./àlàáfíà-ara-a-má-jẹ́.m4a"
+import File483 from "./àlá-mi-láti-jẹ́-kí-ilé-ayé-yìí-dára-si.m4a"
+import File484 from "./àlùwàlá.m4a"
+import File485 from "./àmàlà.m4a"
+import File486 from "./àná.m4a"
+import File487 from "./àwa.m4a"
+import File488 from "./àwọn-ni-ó-jẹ́.m4a"
+import File489 from "./àwọn-ọmọdé-pe-ara-wọn-jọ-láti-ṣeré.m4a"
+import File490 from "./àwọn.m4a"
+import File491 from "./àwọ̀-ara-mi-kò-gbà-ìgbàkugbà.m4a"
+import File492 from "./èló-ni-gbogbo-rẹ̀-jẹ́-papọ̀.m4a"
+import File493 from "./èmi-ni-mo-jẹ́.m4a"
+import File494 from "./èmi.m4a"
+import File495 from "./ènìyàn.m4a"
+import File496 from "./èrò-ọkàn-mi-pọ.m4a"
+import File497 from "./ètè.m4a"
+import File498 from "./èèyàn-ni-ẹ.m4a"
+import File499 from "./èèyàn.m4a"
+import File500 from "./èéjì.m4a"
+import File501 from "./ìdí.m4a"
+import File502 from "./ìfàsẹ́yìn.m4a"
+import File503 from "./ìgbà-wo-lo-ma-dáwó-mi-padà.m4a"
+import File504 from "./ìgúnpá.m4a"
+import File505 from "./ìkíni-ní-èdè-yorùbá.m4a"
+import File506 from "./ìwọ-ni-ó-jẹ́.m4a"
+import File507 from "./ìwọ.m4a"
+import File508 from "./ìyàwó.m4a"
+import File509 from "./òbí.m4a"
+import File510 from "./ògbẹ-ń-gbẹ-mi.m4a"
+import File511 from "./òní.m4a"
+import File512 from "./òróró.m4a"
+import File513 from "./òtútù-kó-sí-mi-láyà,-mo-sì-wúkọ̀-ní-gbogbo-àárọ̀.m4a"
+import File514 from "./òtútù-mú-mi-lánàá.m4a"
+import File515 from "./òtútù-ń-mú-mi.m4a"
+import File516 from "./òtútù-ń-mú.m4a"
+import File517 from "./òun-ni-ó-jẹ́.m4a"
+import File518 from "./òun.m4a"
+import File519 from "./òṣogbo.m4a"
+import File520 from "./òṣèré-wo-lo-nífẹ̀ẹ́-sí-jù.m4a"
+import File521 from "./ó-dà-àárọ̀.m4a"
+import File522 from "./ó-dàbọ̀.m4a"
+import File523 from "./ó-jẹ-ẹ̀wà.m4a"
+import File524 from "./ó-mú-aṣọ-kékeré-kan-lọ́wọ́.m4a"
+import File525 from "./ó-sì-ń-rìn-yíká-agbo-náà,-ó-ń-dá-orin.m4a"
+import File526 from "./ó-ti-rẹwà-púpò-jù.m4a"
+import File527 from "./ó-ti-wọ́n-jù.m4a"
+import File528 from "./ó-wù-mí-láti-ra-bàtà.m4a"
+import File529 from "./ó.m4a"
+import File530 from "./ǹ-jẹ́-ẹni-kankan-jókòó-sí-orí-àga-yìí.m4a"
+import File531 from "./ṣ.m4a"
+import File532 from "./ṣe-o-lè-ràn-mí-lọ́wọ́.m4a"
+import File533 from "./ṣe-sùúrù.m4a"
+import File534 from "./ṣe-wà-á-mu-tea.m4a"
+import File535 from "./ṣe-ẹ-ní-àtẹ-oúnjẹ.m4a"
+import File536 from "./ṣe.m4a"
+import File537 from "./ṣé-mo-lè-bí-ẹ-bi-ẹ-ní-ìbéèrè-kan.m4a"
+import File538 from "./ṣé-nnkan-kan-wáà-tí-ó-máa-ń-dà-ọ́-láàmú.m4a"
+import File539 from "./ṣé-o-fara-mọ.m4a"
+import File540 from "./ṣé-o-ní-olólùfẹ́-obìnrin.m4a"
+import File541 from "./ṣé-o-ní-olólùfẹ́-ọkùnrin.m4a"
+import File542 from "./ṣé-o-ní-ìfẹ́-mi.m4a"
+import File543 from "./ṣé-o-ti-jẹun-dáadáa.m4a"
 import File544 from "./ṣé-wàá-jẹun-ní-alẹ́-yìí.m4a"
 import File545 from "./ṣé-wàá-mu-tea-tàbí-omi.m4a"
-import File546 from "./ṣé-yóò-rọ̀-lónìí?.m4a"
+import File546 from "./ṣé-yóò-rọ̀-lónìí.m4a"
 import File547 from "./ṣé-ẹ-ti-ṣe-tán.m4a"
 import File548 from "./ẹ-jẹ-ẹ̀wà.m4a"
 import File549 from "./ẹ-jẹ́-ká-lọ-papọ̀.m4a"
@@ -598,7 +598,7 @@ import File596 from "./ọmọ-gambia-ni-mi.m4a"
 import File597 from "./ọmọ-ghana-ni-mí.m4a"
 import File598 from "./ọmọ-nigeria-ni-mi.m4a"
 import File599 from "./ọmọ-tó-mọ́-ìyá-rẹ-lójú-ó.m4a"
-import File600 from "./ọmọ-ọdún-mélòó-ni-ẹ?.m4a"
+import File600 from "./ọmọ-ọdún-mélòó-ni-ẹ.m4a"
 import File601 from "./ọmọ-ọdún-mẹ́ẹ̀dọ́gbọ̀n-ni-mi.m4a"
 import File602 from "./ọrùn.m4a"
 import File603 from "./ọwọ́.m4a"
@@ -632,13 +632,13 @@ import File611 from "./ọ̀tẹ̀.m4a"
 	"adé fún yín": File16,
 	"adé fún ọ": File17,
 	"adìẹ": File18,
-	"ago mélòó ló lù?": File19,
+	"ago mélòó ló lù": File19,
 	"ago mẹrin ìrọ̀lẹ́ la wà": File20,
 	"ahọ́n": File21,
 	"ajirebi": File22,
 	"ajá": File23,
 	"akẹ́kọ̀ọ́ ni mi": File24,
-	"akọ̀wé wo lo nífẹ̀ẹ́ sí jù?": File25,
+	"akọ̀wé wo lo nífẹ̀ẹ́ sí jù": File25,
 	"apọ̀dà ni ẹ": File26,
 	"ara mi kò yá, ó rẹ̀mí gan an": File27,
 	"ara mi kò yá": File28,
@@ -651,17 +651,17 @@ import File611 from "./ọ̀tẹ̀.m4a"
 	"b": File35,
 	"ba": File36,
 	"bákan náà": File37,
-	"be": File38,
-	"bi mo bá jí lówùúrọ̀": File39,
-	"bi": File40,
-	"bí mo bá": File41,
-	"bo": File42,
-	"bu": File43,
-	"bà": File44,
-	"bàbá": File45,
-	"bàtà": File46,
-	"bá": File47,
-	"báwo ló ṣe mọ̀?": File48,
+	"báwo ló ṣe mọ̀": File38,
+	"be": File39,
+	"bi mo bá jí lówùúrọ̀": File40,
+	"bi": File41,
+	"bí mo bá": File42,
+	"bo": File43,
+	"bu": File44,
+	"bà": File45,
+	"bàbá": File46,
+	"bàtà": File47,
+	"bá": File48,
 	"báwo ni gbogbo yin": File49,
 	"báwo ni ojú ọjọ́ lónìí": File50,
 	"báwo ni": File51,
@@ -684,23 +684,23 @@ import File611 from "./ọ̀tẹ̀.m4a"
 	"d": File68,
 	"da": File69,
 	"dáhùn": File70,
-	"dárí jì": File71,
-	"de": File72,
-	"di": File73,
-	"dọ̀bálẹ̀": File74,
-	"du": File75,
-	"dà": File76,
-	"dàda": File77,
-	"dá": File78,
-	"dákun dúró fún mi díẹ̀ si": File79,
-	"dákun máa ba lọ": File80,
-	"dákun máa pariwo jù": File81,
-	"dákun panumọ́": File82,
-	"dákun rìn díẹ̀ díẹ̀": File83,
-	"dákun sọ̀rọ̀ díẹ̀ díẹ̀": File84,
-	"dákun wọlé": File85,
-	"dákun ǹjẹ́ o lè tún gbólóhùn yẹn sọ": File86,
-	"dákun ṣe ó le pe ambulance?": File87,
+	"dákun ṣe ó le pe ambulance": File71,
+	"dárí jì": File72,
+	"de": File73,
+	"di": File74,
+	"dọ̀bálẹ̀": File75,
+	"du": File76,
+	"dà": File77,
+	"dàda": File78,
+	"dá": File79,
+	"dákun dúró fún mi díẹ̀ si": File80,
+	"dákun máa ba lọ": File81,
+	"dákun máa pariwo jù": File82,
+	"dákun panumọ́": File83,
+	"dákun rìn díẹ̀ díẹ̀": File84,
+	"dákun sọ̀rọ̀ díẹ̀ díẹ̀": File85,
+	"dákun wọlé": File86,
+	"dákun ǹjẹ́ o lè tún gbólóhùn yẹn sọ": File87,
 	"dákun ṣé o lè sọ ní ẹ̀ẹ̀kan si": File88,
 	"dákun ẹ ti pè sílẹ̀ láti gba àyè": File89,
 	"dè": File90,
@@ -828,7 +828,7 @@ import File611 from "./ọ̀tẹ̀.m4a"
 	"ìwọ̀ oòrùn": File212,
 	"iṣu àti ẹyin ló ń wù mí jẹ": File213,
 	"iṣu": File214,
-	"iṣẹ́ wo ló ń ṣe?": File215,
+	"iṣẹ́ wo ló ń ṣe": File215,
 	"j": File216,
 	"jagunjagun": File217,
 	"jalè": File218,
@@ -858,22 +858,22 @@ import File611 from "./ọ̀tẹ̀.m4a"
 	"kà": File242,
 	"ké": File243,
 	"kéde": File244,
-	"kí ló dé?": File245,
+	"kí ló dé": File245,
 	"kí ló fa ẹ̀rín": File246,
 	"kí ló fẹ́ jẹ": File247,
 	"kí ni o sọ ní isìnyìí": File248,
-	"kí ni yẹn?": File249,
+	"kí ni yẹn": File249,
 	"kí ẹ ní òpin ọ̀sẹ̀ ayọ̀": File250,
 	"kílé ó le dára sí i": File251,
-	"kín ló ń ṣe?": File252,
+	"kín ló ń ṣe": File252,
 	"kín ni nọ́mbà ẹ̀rọ rẹ": File253,
-	"kín ni orúkọ rẹ?": File254,
+	"kín ni orúkọ rẹ": File254,
 	"kín ni èrò tìrẹ": File255,
-	"kín ni ó fẹ́ ṣe ní ọ̀la?": File256,
+	"kín ni ó fẹ́ ṣe ní ọ̀la": File256,
 	"kín ni ó gbé jẹ tí o fi ń bá mi sọ̀rọ̀ bá yẹn": File257,
-	"kín ni ó ti ṣe lónìí?": File258,
-	"kín ni ó wù yín rà?": File259,
-	"kín ni ó wù ọ́ láti ṣe ní ọ̀la?": File260,
+	"kín ni ó ti ṣe lónìí": File258,
+	"kín ni ó wù yín rà": File259,
+	"kín ni ó wù ọ́ láti ṣe ní ọ̀la": File260,
 	"kín ni ó ṣe ní àná": File261,
 	"kín ni ẹ fẹ́ mu": File262,
 	"kò sí nnkan tó kàn mí nípa rẹ": File263,
@@ -976,19 +976,19 @@ import File611 from "./ọ̀tẹ̀.m4a"
 	"mọ́ímọ́í": File360,
 	"n ò jẹ ẹ̀wà": File361,
 	"n": File362,
-	"níbo lo ti sọ ẹ̀rọ ìbánisọ̀rọ̀ rẹ nù": File363,
-	"nígbà gbogbo": File364,
-	"nítorí": File365,
-	"nnkan náà bà mí lọ́kàn jẹ̀ ẹ́": File366,
-	"nnkan tí o sọ kò yé mi": File367,
-	"nnkan tí ó ń ṣe yìí kò yé mi": File368,
-	"no": File369,
-	"ní òní mi ò ní àkókò fún": File370,
-	"ní ọdún yìí mi ò fẹ́ dáwọ̀ọ́ ìdùnnú": File371,
-	"ní ọ̀la mo fẹ́ rí bàbá mi": File372,
-	"níbo lo lọ ní ìrọ̀lẹ́ àná?": File373,
-	"níbo lo ti ń ṣisẹ́?": File374,
-	"níbo lo wà?": File375,
+	"níbo lo ti ń ṣisẹ́": File363,
+	"níbo lo ti sọ ẹ̀rọ ìbánisọ̀rọ̀ rẹ nù": File364,
+	"níbo lo wà": File365,
+	"nígbà gbogbo": File366,
+	"nítorí": File367,
+	"nnkan náà bà mí lọ́kàn jẹ̀ ẹ́": File368,
+	"nnkan tí o sọ kò yé mi": File369,
+	"nnkan tí ó ń ṣe yìí kò yé mi": File370,
+	"no": File371,
+	"ní òní mi ò ní àkókò fún": File372,
+	"ní ọdún yìí mi ò fẹ́ dáwọ̀ọ́ ìdùnnú": File373,
+	"ní ọ̀la mo fẹ́ rí bàbá mi": File374,
+	"níbo lo lọ ní ìrọ̀lẹ́ àná": File375,
 	"níbo lo ń lọ": File376,
 	"nílé": File377,
 	"níníọlá": File378,
@@ -1049,117 +1049,117 @@ import File611 from "./ọ̀tẹ̀.m4a"
 	"stand up   copy": File433,
 	"sá": File434,
 	"sílé": File435,
-	"ṣé ẹ máa nífẹ̀ẹ́ sí wíínì": File436,
-	"ṣé òtútù kò mú ọ": File437,
-	"ṣé yìnyín kò jábọ́": File438,
-	"t": File439,
-	"ta ló": File440,
-	"ta ni olówó ajá yìí": File441,
-	"ta ni yìí?": File442,
-	"ta ni": File443,
-	"tata": File444,
-	"tà": File445,
-	"táyé": File446,
-	"táíwò": File447,
-	"tòlótòló": File448,
-	"tẹ́": File449,
-	"u": File450,
-	"w": File451,
-	"waiter, èló ni owó wa": File452,
-	"waiter, ẹ jọ̀ọ́ ẹ bá mi mú àtẹ oúnjẹ yín wá": File453,
-	"what will you like to buy?": File454,
-	"who are you?": File455,
-	"wọ́n wà dáadáa": File456,
-	"wá": File457,
-	"wálé kò wá ilé": File458,
-	"wò": File459,
-	"wọ́n jẹ ẹ̀wà": File460,
-	"wọ́n": File461,
-	"wọ́rọ́wọ́": File462,
-	"y": File463,
-	"ya àwòrán àgùntàn fún mi": File464,
-	"ya": File465,
-	"yes": File466,
-	"yẹni": File467,
-	"yìnyín kò jábọ́": File468,
-	"yorùbá": File469,
-	"yóò wù mí láti ra máàpù ìlú": File470,
-	"yà": File471,
-	"yá": File472,
-	"yó": File473,
-	"yẹra": File474,
-	"àbá yìí da pọ̀": File475,
-	"àbúrò": File476,
-	"àgùntàn": File477,
-	"àkòrí yìí gbayì pọ̀": File478,
-	"àlàáfíà ara a má jẹ́": File479,
-	"àlá mi láti jẹ́ kí ilé ayé yìí dára si": File480,
-	"àlùwàlá": File481,
-	"àmàlà": File482,
-	"àná": File483,
-	"àwa": File484,
-	"àwọn ni ó jẹ́": File485,
-	"àwọn ọmọdé pe ara wọn jọ láti ṣeré": File486,
-	"àwọn": File487,
-	"àwọ̀ ara mi kò gbà ìgbàkugbà": File488,
-	"èló ni gbogbo rẹ̀ jẹ́ papọ̀": File489,
-	"èmi ni mo jẹ́": File490,
-	"èmi": File491,
-	"ènìyàn": File492,
-	"èrò ọkàn mi pọ": File493,
-	"ètè": File494,
-	"èèyàn ni ẹ": File495,
-	"èèyàn": File496,
-	"èéjì": File497,
-	"ìdí": File498,
-	"ìfàsẹ́yìn": File499,
-	"ìgbà wo lo ma dáwó mi padà": File500,
-	"ìgúnpá": File501,
-	"ìkíni ní èdè yorùbá": File502,
-	"ìwọ ni ó jẹ́": File503,
-	"ìwọ": File504,
-	"ìyàwó": File505,
-	"òbí": File506,
-	"ògbẹ ń gbẹ mi": File507,
-	"òní": File508,
-	"òróró": File509,
-	"òtútù kó sí mi láyà, mo sì wúkọ̀ ní gbogbo àárọ̀": File510,
-	"òtútù mú mi lánàá": File511,
-	"òtútù ń mú mi": File512,
-	"òtútù ń mú": File513,
-	"òun ni ó jẹ́": File514,
-	"òun": File515,
-	"òṣogbo": File516,
-	"òṣèré wo lo nífẹ̀ẹ́ sí jù": File517,
-	"ó dà àárọ̀": File518,
-	"ó dàbọ̀": File519,
-	"ó jẹ ẹ̀wà": File520,
-	"ó mú aṣọ kékeré kan lọ́wọ́": File521,
-	"ó sì ń rìn yíká agbo náà, ó ń dá orin": File522,
-	"ó ti rẹwà púpò jù": File523,
-	"ó ti wọ́n jù": File524,
-	"ó wù mí láti ra bàtà": File525,
-	"ó": File526,
-	"ǹ jẹ́ ẹni kankan jókòó sí orí àga yìí": File527,
-	"ṣ": File528,
-	"ṣe o lè ràn mí lọ́wọ́?": File529,
-	"ṣe o lè ṣe àlàyé ìtumọ̀ ọ̀rọ̀ yìí?": File530,
-	"ṣe o nílò ìrànlọ́wọ́?": File531,
-	"ṣe sùúrù": File532,
-	"ṣe wà á mu tea": File533,
-	"ṣe ẹ ní àtẹ oúnjẹ": File534,
-	"ṣe": File535,
-	"ṣé mo lè bí ẹ bi ẹ ní ìbéèrè kan": File536,
-	"ṣé nnkan kan wáà tí ó máa ń dà ọ́ láàmú": File537,
-	"ṣé o fara mọ?": File538,
-	"ṣé o ní olólùfẹ́ obìnrin": File539,
-	"ṣé o ní olólùfẹ́ ọkùnrin": File540,
-	"ṣé o ní ìfẹ́ mi": File541,
-	"ṣé o ti jẹun dáadáa": File542,
-	"ṣé o ti ṣe ìgbéyàwó?": File543,
+	"ṣe o lè ṣe àlàyé ìtumọ̀ ọ̀rọ̀ yìí": File436,
+	"ṣe o nílò ìrànlọ́wọ́": File437,
+	"ṣé ẹ máa nífẹ̀ẹ́ sí wíínì": File438,
+	"ṣé o ti ṣe ìgbéyàwó": File439,
+	"ṣé òtútù kò mú ọ": File440,
+	"ṣé yìnyín kò jábọ́": File441,
+	"t": File442,
+	"ta ló": File443,
+	"ta ni olówó ajá yìí": File444,
+	"ta ni yìí": File445,
+	"ta ni": File446,
+	"tata": File447,
+	"tà": File448,
+	"táyé": File449,
+	"táíwò": File450,
+	"tòlótòló": File451,
+	"tẹ́": File452,
+	"u": File453,
+	"w": File454,
+	"waiter, èló ni owó wa": File455,
+	"waiter, ẹ jọ̀ọ́ ẹ bá mi mú àtẹ oúnjẹ yín wá": File456,
+	"what will you like to buy": File457,
+	"who are you": File458,
+	"wọ́n wà dáadáa": File459,
+	"wá": File460,
+	"wálé kò wá ilé": File461,
+	"wò": File462,
+	"wọ́n jẹ ẹ̀wà": File463,
+	"wọ́n": File464,
+	"wọ́rọ́wọ́": File465,
+	"y": File466,
+	"ya àwòrán àgùntàn fún mi": File467,
+	"ya": File468,
+	"yes": File469,
+	"yẹni": File470,
+	"yìnyín kò jábọ́": File471,
+	"yorùbá": File472,
+	"yóò wù mí láti ra máàpù ìlú": File473,
+	"yà": File474,
+	"yá": File475,
+	"yó": File476,
+	"yẹra": File477,
+	"àbá yìí da pọ̀": File478,
+	"àbúrò": File479,
+	"àgùntàn": File480,
+	"àkòrí yìí gbayì pọ̀": File481,
+	"àlàáfíà ara a má jẹ́": File482,
+	"àlá mi láti jẹ́ kí ilé ayé yìí dára si": File483,
+	"àlùwàlá": File484,
+	"àmàlà": File485,
+	"àná": File486,
+	"àwa": File487,
+	"àwọn ni ó jẹ́": File488,
+	"àwọn ọmọdé pe ara wọn jọ láti ṣeré": File489,
+	"àwọn": File490,
+	"àwọ̀ ara mi kò gbà ìgbàkugbà": File491,
+	"èló ni gbogbo rẹ̀ jẹ́ papọ̀": File492,
+	"èmi ni mo jẹ́": File493,
+	"èmi": File494,
+	"ènìyàn": File495,
+	"èrò ọkàn mi pọ": File496,
+	"ètè": File497,
+	"èèyàn ni ẹ": File498,
+	"èèyàn": File499,
+	"èéjì": File500,
+	"ìdí": File501,
+	"ìfàsẹ́yìn": File502,
+	"ìgbà wo lo ma dáwó mi padà": File503,
+	"ìgúnpá": File504,
+	"ìkíni ní èdè yorùbá": File505,
+	"ìwọ ni ó jẹ́": File506,
+	"ìwọ": File507,
+	"ìyàwó": File508,
+	"òbí": File509,
+	"ògbẹ ń gbẹ mi": File510,
+	"òní": File511,
+	"òróró": File512,
+	"òtútù kó sí mi láyà, mo sì wúkọ̀ ní gbogbo àárọ̀": File513,
+	"òtútù mú mi lánàá": File514,
+	"òtútù ń mú mi": File515,
+	"òtútù ń mú": File516,
+	"òun ni ó jẹ́": File517,
+	"òun": File518,
+	"òṣogbo": File519,
+	"òṣèré wo lo nífẹ̀ẹ́ sí jù": File520,
+	"ó dà àárọ̀": File521,
+	"ó dàbọ̀": File522,
+	"ó jẹ ẹ̀wà": File523,
+	"ó mú aṣọ kékeré kan lọ́wọ́": File524,
+	"ó sì ń rìn yíká agbo náà, ó ń dá orin": File525,
+	"ó ti rẹwà púpò jù": File526,
+	"ó ti wọ́n jù": File527,
+	"ó wù mí láti ra bàtà": File528,
+	"ó": File529,
+	"ǹ jẹ́ ẹni kankan jókòó sí orí àga yìí": File530,
+	"ṣ": File531,
+	"ṣe o lè ràn mí lọ́wọ́": File532,
+	"ṣe sùúrù": File533,
+	"ṣe wà á mu tea": File534,
+	"ṣe ẹ ní àtẹ oúnjẹ": File535,
+	"ṣe": File536,
+	"ṣé mo lè bí ẹ bi ẹ ní ìbéèrè kan": File537,
+	"ṣé nnkan kan wáà tí ó máa ń dà ọ́ láàmú": File538,
+	"ṣé o fara mọ": File539,
+	"ṣé o ní olólùfẹ́ obìnrin": File540,
+	"ṣé o ní olólùfẹ́ ọkùnrin": File541,
+	"ṣé o ní ìfẹ́ mi": File542,
+	"ṣé o ti jẹun dáadáa": File543,
 	"ṣé wàá jẹun ní alẹ́ yìí": File544,
 	"ṣé wàá mu tea tàbí omi": File545,
-	"ṣé yóò rọ̀ lónìí?": File546,
+	"ṣé yóò rọ̀ lónìí": File546,
 	"ṣé ẹ ti ṣe tán": File547,
 	"ẹ jẹ ẹ̀wà": File548,
 	"ẹ jẹ́ ká lọ papọ̀": File549,
@@ -1213,7 +1213,7 @@ import File611 from "./ọ̀tẹ̀.m4a"
 	"ọmọ ghana ni mí": File597,
 	"ọmọ nigeria ni mi": File598,
 	"ọmọ tó mọ́ ìyá rẹ lójú ó": File599,
-	"ọmọ ọdún mélòó ni ẹ?": File600,
+	"ọmọ ọdún mélòó ni ẹ": File600,
 	"ọmọ ọdún mẹ́ẹ̀dọ́gbọ̀n ni mi": File601,
 	"ọrùn": File602,
 	"ọwọ́": File603,

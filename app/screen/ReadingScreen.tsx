@@ -159,11 +159,12 @@ const styles = StyleSheet.create({
   select: {
     display: 'flex',
     justifyContent: 'center',
-    alignContent: 'space-around',
+    alignContent: 'center',
     flexWrap: 'wrap',
     borderRadius: 3,
     height: '80%',
     padding: 0,
+    flexDirection: 'row',
   }
 });
 

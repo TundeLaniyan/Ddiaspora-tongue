@@ -178,7 +178,7 @@ const styles = StyleSheet.create({
   select: {
     display: 'flex',
     justifyContent: 'center',
-    alignContent: 'space-around',
+    alignContent: 'center',
     flexWrap: 'wrap',
     paddingHorizontal: 5,
     marginBottom: 90,

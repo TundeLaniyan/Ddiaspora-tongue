@@ -13,6 +13,7 @@ import Utilities from "../utilities/utilities";
 let cardPercent = '25%';
 const cardSizeTask = { [routes.EASY]: '45%', [routes.HARD]: '26%', [routes.MEMORY]: '23%', [routes.READING]: '25%', [routes.RAPID]: '21%' };
 const doublePercent = (percent: string): string => parseInt(percent.replace('%', '')) * 2 + '%';
+const convertPercentToNumber = (percent: string): number => parseFloat(percent.replace('%', '')) / 100
 
 type Props = {
   state: number,
@@ -54,12 +55,10 @@ const Card = memo(function Card({
 
   const ImageSource = (hide && hide >= 0) && !answer ? View : Utilities.findImage(category, lecture, exercise);
   const type: "NATIVELANGUAGE" | "TARGETLANGUAGE" = lesson[category].subLesson[lecture].type;
-  // console.log("ImageSource card 3-", ImageSource, category, lecture, exercise, text[constant.NATIVELANGUAGE]);
-  // console.log("section", category, lecture, exercise, type, text);
 
   return (
     <TouchableOpacity
-      style={[styles.card, !hide && light ? { backgroundColor: `rgba(0, 0, 0, 0.2)` } : {}, { height: cardPercent, width: cardPercent }]}
+      style={[styles.card, !hide && light ? { backgroundColor: `rgba(0, 0, 0, 0.2)` } : {}, { minHeight: cardPercent, width: cardPercent }]}
       // style={[styles.card, !hide && light ? { filter: `brightness(${light})` } : {}, { height: cardPercent, width: cardPercent }]}
       onPress={handlePress}
     >
@@ -82,7 +81,7 @@ const Card = memo(function Card({
           {
             typeof ImageSource === "number" ?
             <Image source={ImageSource} style={styles.img} /> :
-            <ImageSource width="100%" height="67%" />
+            <ImageSource width="100%" height={convertPercentToNumber(cardPercent) * 385} />
           }
             <View style={styles.cardTextContainer}>
               <Text style={styles.cardText}>{text[NATIVELANGUAGE]}</Text>
@@ -116,7 +115,8 @@ const styles = StyleSheet.create({
   img: {
     width: '100%',
     // backgroundPosition: 'center',
-    height: '67%',
+    // height: '67%',
+    height: convertPercentToNumber(cardPercent) * 385,
     // backgroundSize: 'cover',
     resizeMode: 'cover',
     marginBottom: 'auto',
