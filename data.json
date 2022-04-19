@@ -1067,6 +1067,10 @@
             {
               "English": "I",
               "Yoruba": "Mo"
+            },
+            {
+              "English": "Who",
+              "Yoruba": ["Ta ló", "Ta ni"]
             }
           ]
         },
@@ -1267,6 +1271,62 @@
             {
               "English": "Full",
               "Yoruba": "Kún"
+            }
+          ]
+        },
+        {
+          "title": "More verbs",
+          "description": "Learn more action words",
+          "tasks": ["EXERCISE", "EASY", "HARD", "READING", "MEMORY", "RAPID"],
+          "type": null,
+          "text": [
+            {
+              "English": "Pack",
+              "Yoruba": "Kó"
+            },
+            {
+              "English": "Pass inside",
+              "Yoruba": "Gba inú"
+            },
+            {
+              "English": "Take under",
+              "Yoruba": "Gba abẹ́"
+            },
+            {
+              "English": "Leave",
+              "Yoruba": "Kúrò"
+            },
+            {
+              "English": "Taking care",
+              "Yoruba": "Ìtọ́jú"
+            },
+            {
+              "English": "Take over",
+              "Yoruba": "Gba orí"
+            },
+            {
+              "English": "Reply",
+              "Yoruba": "Dáhùn"
+            },
+            {
+              "English": "Games",
+              "Yoruba": "Eré ìdárayá"
+            },
+            {
+              "English": "Exercise",
+              "Yoruba": "Ìdárayá"
+            },
+            {
+              "English": "Postrate",
+              "Yoruba": "Dọ̀bálẹ̀"
+            },
+            {
+              "English": "Shame",
+              "Yoruba": "Ojú tìí"
+            },
+            {
+              "English": "Forgive",
+              "Yoruba": ["Bẹ̀", "Dárí jì", "Forí jí"]
             }
           ]
         },
@@ -1600,34 +1660,62 @@
       "description": "Learn more nonus and adjective in Yoruba",
       "subLesson": [
         {
-          "title": "Pronoun",
-          "description": "Subject identifier",
+          "title": "Basic nouns",
+          "description": "Introduction to nouns",
           "tasks": ["EXERCISE", "EASY", "HARD", "READING", "MEMORY", "RAPID"],
           "type": null,
           "text": [
             {
-              "English": "They",
-              "Yoruba": "Wọ́n"
+              "English": "North",
+              "Yoruba": "Àríwá"
             },
             {
-              "English": "All of you",
-              "Yoruba": "Ẹ"
+              "English": "South",
+              "Yoruba": "Gúúsù"
             },
             {
-              "English": "We",
-              "Yoruba": "A"
+              "English": "West",
+              "Yoruba": "Ìwọ̀ oòrùn"
             },
             {
-              "English": "He/She/It",
-              "Yoruba": "Ó"
+              "English": "East",
+              "Yoruba": "Ìlà òòrùn"
             },
             {
-              "English": "You",
-              "Yoruba": "O"
+              "English": "Middle",
+              "Yoruba": "Àárín"
             },
             {
-              "English": "I",
-              "Yoruba": "Mo"
+              "English": "Front",
+              "Yoruba": "Iwájú"
+            },
+            {
+              "English": "Behind",
+              "Yoruba": "Ẹ̀yìn"
+            },
+            {
+              "English": "Book",
+              "Yoruba": "Ìwé"
+            },
+            {
+              "English": "Character",
+              "Yoruba": "Ìwà"
+            },
+            {
+              "English": "Bath",
+              "Yoruba": "Ìwẹ̀"
+            },
+            {
+              "English": "Left",
+              "Yoruba": "Òsì"
+            },
+            {
+              "English": "Poverty",
+              "Yoruba": "Òṣì"
+            },
+            {
+              "English": "Bottles",
+              "Yoruba": "Ìgò"
             }
           ]
         },
@@ -1638,20 +1726,64 @@
           "type": null,
           "text": [
             {
-              "English": "Stolen",
-              "Yoruba": "Jalè"
+              "English": "Cognomen",
+              "Yoruba": "Oríkì"
+            },
+            {
+              "English": "Garden",
+              "Yoruba": "Ọgbà"
             }
           ]
         },
         {
-          "title": "Adjective",
-          "description": "Learn more adjective",
+          "title": "Basic Adjective",
+          "description": "Introduction to adjective",
           "tasks": ["EXERCISE", "EASY", "HARD", "READING", "MEMORY", "RAPID"],
           "type": null,
           "text": [
             {
               "English": "Stolen",
               "Yoruba": "Jalè"
+            }
+          ]
+        },
+        {
+          "title": "More Adjective",
+          "description": "Learn more adjective",
+          "tasks": ["EXERCISE", "EASY", "HARD", "READING", "MEMORY", "RAPID"],
+          "type": null,
+          "text": [
+            {
+              "English": "All the time",
+              "Yoruba": "Nígbà gbogbo"
+            },
+            {
+              "English": "On time",
+              "Yoruba": "Lásìkò"
+            }
+          ]
+        },
+        {
+          "title": "Extra words",
+          "description": "Learn more words",
+          "tasks": ["EXERCISE", "EASY", "HARD", "READING", "MEMORY", "RAPID"],
+          "type": null,
+          "text": [
+            {
+              "English": "Even",
+              "Yoruba": "Kódà"
+            },
+            {
+              "English": "Honor",
+              "Yoruba": "Yẹni"
+            },
+            {
+              "English": "Same",
+              "Yoruba": "Bákan náà"
+            },
+            {
+              "English": "One",
+              "Yoruba": "Kìn-ín-ní"
             }
           ]
         }
@@ -1663,6 +1795,56 @@
       "subLesson":  [
         {
           "title": "Statements 1",
+          "description": "Common statements",
+          "tasks": ["EXERCISE", "EASY", "HARD", "READING", "MEMORY", "RAPID"],
+          "type": null,
+          "text": [
+            {
+              "English": "If I am",
+              "Yoruba": "Bí mo bá"
+            },
+            {
+              "English": "I should",
+              "Yoruba": "Kí n má"
+            },
+            {
+              "English": "I will be done in 5 minute",
+              "Yoruba": "Màá ṣe tán ní ìṣẹ́jú márùn ún"
+            },
+            {
+              "English": "I just left the train",
+              "Yoruba": "Mo ṣẹ̀ṣẹ̀ kúrò nínú train"
+            },
+            {
+              "English": "Hope you are not feeling cold",
+              "Yoruba": "Ṣé òtútù kò mú ọ"
+            },
+            {
+              "English": "Hope it is not snowing",
+              "Yoruba": "Ṣé yìnyín kò jábọ́"
+            },
+            {
+              "English": "It is not snowing",
+              "Yoruba": "Yìnyín kò jábọ́"
+            },
+            {
+              "English": "I am at place of work",
+              "Yoruba": "Mo wà ní ibi iṣẹ́"
+            },
+            {
+              "English": "She is good",
+              "Yoruba": "Wọ́n wà (dáadáa)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Statements",
+      "description": "Learn statements in Yoruba",
+      "subLesson":  [
+        {
+          "title": "Statements 2",
           "description": "Common statements",
           "tasks": ["EXERCISE", "EASY", "HARD", "READING", "MEMORY", "RAPID"],
           "type": null,
@@ -1823,7 +2005,7 @@
           ]
         },
         {
-          "title": "Statements 2",
+          "title": "Statements 3",
           "description": "MORE Common statements",
           "tasks": ["EXERCISE", "EASY", "HARD", "READING", "MEMORY", "RAPID"],
           "type": null,
@@ -1850,7 +2032,7 @@
             },
             {
               "English": "Can you explain what this word mean?",
-              "Yoruba": "Ṣe o lè ṣe àlàyé ìtumọ̀ ọ̀rọ̀ yìí?"
+              "Yoruba": "Ṣe o lè ṣe àlàyé ìtumọ̀ ọ̀rọ̀ yìí?"
             },
             {
               "English": "I couldn't hear it",
@@ -1985,7 +2167,7 @@
           ]
         },
         {
-          "title": "Statements 3",
+          "title": "Statements 4",
           "description": "More commone statements",
           "tasks": ["EXERCISE", "EASY", "HARD", "READING", "MEMORY", "RAPID"],
           "type": null,
@@ -2095,7 +2277,7 @@
             },
             {
               "English": "Where do you work?",
-              "Yoruba": "Níbo lo ti ń ṣisẹ́?"
+              "Yoruba": "Níbo lo ti ń ṣisẹ́?"
             },
             {
               "English": "You work too much",
@@ -2103,7 +2285,7 @@
             },
             {
               "English": "How do you know?",
-              "Yoruba": "Báwo ló ṣe mọ̀?"
+              "Yoruba": "Báwo ló ṣe mọ̀"
             },
             {
               "English": "Where did you go yesterday's evening?",
@@ -2152,7 +2334,7 @@
           ]
         },
         {
-          "title": "Statements 4",
+          "title": "Statements 5",
           "description": "More common statements",
           "tasks": ["EXERCISE", "EASY", "HARD", "READING", "MEMORY", "RAPID"],
           "type": null,
@@ -2299,7 +2481,7 @@
             },
             {
               "English": "Do you need help?",
-              "Yoruba": "Ṣe o nílò ìrànlọ́wọ́?"
+              "Yoruba": "Ṣe o nílò ìrànlọ́wọ́?"
             },
             {
               "English": "Can you help me?",
@@ -2307,7 +2489,7 @@
             },
             {
               "English": "Can you please call an ambulance?",
-              "Yoruba": "Dákun ṣe ó le pe ambulance"
+              "Yoruba": "Dákun ṣe ó le pe ambulance"
             },
             {
               "English": "Sorry, I can't help you",
@@ -2316,7 +2498,7 @@
           ]
         },
         {
-          "title": "Statements 5",
+          "title": "Statements 6",
           "description": "More common statements",
           "tasks": ["EXERCISE", "EASY", "HARD", "READING", "MEMORY", "RAPID"],
           "type": null,
@@ -2379,7 +2561,7 @@
             },
             {
               "English": "Are you married?",
-              "Yoruba": "Ṣé o ti ṣe ìgbéyàwó?"
+              "Yoruba": "Ṣé o ti ṣe ìgbéyàwó?"
             },
             {
               "English": "Do you have a girlfriend?",
@@ -2407,7 +2589,7 @@
             },
             {
               "English": "Where are you?",
-              "Yoruba": "Níbo lo wà?"
+              "Yoruba": "Níbo lo wà?"
             },
             {
               "English": "I have to go",

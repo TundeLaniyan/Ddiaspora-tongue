@@ -4,12 +4,11 @@ const slice = createSlice({
     name: 'exercise',
     initialState: {
         category: 0,
-        lecture: 6,
+        lecture: 0,
         task: '',
     },
     reducers: {
         categorySelect: (exercise, action) => {
-            console.log("Category called");
             exercise.category = action.payload;
         },
         lectureSelect: (exercise, action) => {

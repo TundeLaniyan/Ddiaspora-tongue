@@ -46,7 +46,7 @@ const HardScreen = memo(function ({ navigation }: Props): ReactElement<Props> {
   }
 
   useEffect(() => () => {
-    console.log('unmount', unMount.current);
+    Sound.stop();
     unMount.current?.forEach((event) => clearTimeout(event))
   }, []);
 

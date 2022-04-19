@@ -116,7 +116,6 @@ class GameLogic {
     setCleanUp && setCleanUp((prev) => [...prev, timeOut]);
   };
   totalCards(): number {
-    console.log("this.category", this.category);
     return lesson[this.category].subLesson
       .slice(0, this.lecture)
       .reduce((total, cur) => total + cur.text.length, 0);

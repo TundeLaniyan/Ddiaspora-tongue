@@ -35,16 +35,16 @@ import File33 from "./àwa-la-jẹ́.m4a"
 import File34 from "./aṣọ-yìí-dára.m4a"
 import File35 from "./b.m4a"
 import File36 from "./ba.m4a"
-import File37 from "./bákan-náà.m4a"
-import File38 from "./báwo-ló-ṣe-mọ̀.m4a"
-import File39 from "./be.m4a"
-import File40 from "./bi-mo-bá-jí-lówùúrọ̀.m4a"
-import File41 from "./bi.m4a"
-import File42 from "./bí-mo-bá.m4a"
-import File43 from "./bo.m4a"
-import File44 from "./bu.m4a"
-import File45 from "./bà.m4a"
-import File46 from "./bàbá.m4a"
+import File37 from "./bàbá.m4a"
+import File38 from "./bákan-náà.m4a"
+import File39 from "./báwo-ló-ṣe-mọ̀.m4a"
+import File40 from "./be.m4a"
+import File41 from "./bi-mo-bá-jí-lówùúrọ̀.m4a"
+import File42 from "./bi.m4a"
+import File43 from "./bí-mo-bá.m4a"
+import File44 from "./bo.m4a"
+import File45 from "./bu.m4a"
+import File46 from "./bà.m4a"
 import File47 from "./bàtà.m4a"
 import File48 from "./bá.m4a"
 import File49 from "./báwo-ni-gbogbo-yin.m4a"
@@ -457,7 +457,7 @@ import File455 from "./waiter,-èló-ni-owó-wa.m4a"
 import File456 from "./waiter,-ẹ-jọ̀ọ́-ẹ-bá-mi-mú-àtẹ-oúnjẹ-yín-wá.m4a"
 import File457 from "./what-will-you-like-to-buy.m4a"
 import File458 from "./who-are-you.m4a"
-import File459 from "./wọ́n-wà-dáadáa.m4a"
+import File459 from "./wọ́n-wà-(dáadáa).m4a"
 import File460 from "./wá.m4a"
 import File461 from "./wálé-kò-wá-ilé.m4a"
 import File462 from "./wò.m4a"
@@ -650,16 +650,16 @@ import File611 from "./ọ̀tẹ̀.m4a"
 	"aṣọ yìí dára": File34,
 	"b": File35,
 	"ba": File36,
-	"bákan náà": File37,
-	"báwo ló ṣe mọ̀": File38,
-	"be": File39,
-	"bi mo bá jí lówùúrọ̀": File40,
-	"bi": File41,
-	"bí mo bá": File42,
-	"bo": File43,
-	"bu": File44,
-	"bà": File45,
-	"bàbá": File46,
+	"bàbá": File37,
+	"bákan náà": File38,
+	"báwo ló ṣe mọ̀": File39,
+	"be": File40,
+	"bi mo bá jí lówùúrọ̀": File41,
+	"bi": File42,
+	"bí mo bá": File43,
+	"bo": File44,
+	"bu": File45,
+	"bà": File46,
 	"bàtà": File47,
 	"bá": File48,
 	"báwo ni gbogbo yin": File49,
@@ -1072,7 +1072,7 @@ import File611 from "./ọ̀tẹ̀.m4a"
 	"waiter, ẹ jọ̀ọ́ ẹ bá mi mú àtẹ oúnjẹ yín wá": File456,
 	"what will you like to buy": File457,
 	"who are you": File458,
-	"wọ́n wà dáadáa": File459,
+	"wọ́n wà (dáadáa)": File459,
 	"wá": File460,
 	"wálé kò wá ilé": File461,
 	"wò": File462,

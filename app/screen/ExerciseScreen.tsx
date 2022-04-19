@@ -8,6 +8,7 @@ import { lesson } from "../../data.json";
 import StoreContext from '../../context/gameLogicContext';
 import Utilities from '../utilities/utilities';
 import GameLogic from '../utilities/gameLogic';
+import sound from '../utilities/Sound';
 
 function ExerciseScreen(): ReactElement {
   const Game: GameLogic = useContext(StoreContext);
@@ -23,7 +24,10 @@ function ExerciseScreen(): ReactElement {
   currentIntervalId.current = intervalId;
   const max = lesson[category].subLesson[lecture].text.length - 1;
 
-  useEffect(() => () => clearInterval(currentIntervalId.current), []);
+  useEffect(() => () => {
+    sound.stop();
+    clearInterval(currentIntervalId.current)
+  }, []);
 
   useEffect(() => {
     clearInterval(intervalId);

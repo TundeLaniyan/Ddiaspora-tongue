@@ -46,7 +46,10 @@ function MemoryScreen({ navigation }: Props): ReactElement<Props> {
     setState(cards);
   }
 
-  useEffect(() => () => clearInterval(ref.current.cleanUp), []);
+  useEffect(() => () => {
+    Sound.stop();
+    clearInterval(ref.current.cleanUp)}
+    , []);
 
   useEffect(() => {
     if (next < gameLimit) nextRound();
@@ -134,26 +137,25 @@ function MemoryScreen({ navigation }: Props): ReactElement<Props> {
     setAnswer(answer);
     setActive(true);
   }
-
+  
   return (
     <View style={styles.memoryGame}>
       <View style={styles.select}>
         {state.map((cur, index) => {
-            const display = Game.getLectureAndExercise(cur);
-            return (
-              <Card
-                key={cur}
-                state={cur}
-                lecture={display.lecture}
-                exercise={display.exercise}
-                onPress={handlePress  }
-                hide={hidden[index]}
-                answer={results[index]?.answer}
-                active={active}
-              />
-            );
-          })
-        }
+          const { lecture, exercise } = Game.getLectureAndExercise(cur);
+          return (
+            <Card
+              key={cur}
+              state={cur}
+              lecture={lecture}
+              exercise={exercise}
+              onPress={handlePress  }
+              hide={hidden[index] === cur}
+              answer={results[index]?.answer}
+              active={active}
+            />
+          );
+        })}
       </View>
       <GameFooter
         percent={percent}
@@ -170,19 +172,14 @@ function MemoryScreen({ navigation }: Props): ReactElement<Props> {
 const styles = StyleSheet.create({
   memoryGame: {
     height: '100%',
-    display: 'flex',
-    flexDirection: 'column',
     paddingVertical: 25,
     justifyContent: 'center',
   },
   select: {
-    display: 'flex',
+    flexDirection: 'row',
     justifyContent: 'center',
-    alignContent: 'center',
     flexWrap: 'wrap',
-    paddingHorizontal: 5,
-    marginBottom: 90,
-  }
+  },
 });
 
 export default MemoryScreen;

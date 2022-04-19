@@ -48,10 +48,13 @@ const RapidScreen = memo(function ({ navigation }: Props): ReactElement<Props> {
     setState(cards);
     setPauseInterval(true)
     await answerQuestion(cards, results);
-    // setPauseInterval(false)
+    setPauseInterval(false)
   }
 
-  useEffect(() => () => clearInterval(ref.current.cleanUp), []);
+  useEffect(() => () => {
+    Sound.stop();
+    clearInterval(ref.current.cleanUp)}
+    , []);
 
   useEffect(() => {
     if (next < gameLimit) nextRound();
@@ -96,7 +99,7 @@ const RapidScreen = memo(function ({ navigation }: Props): ReactElement<Props> {
       const CORRECT = input === answer;
       if (CORRECT) await correctInput(input);
       else await incorrectInput(input);
-      // setPauseInterval(false);
+      setPauseInterval(false);
     },
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [active, state, answer, pauseInterval]
