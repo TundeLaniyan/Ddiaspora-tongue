@@ -1836,13 +1836,7 @@
               "Yoruba": "Wọ́n wà (dáadáa)"
             }
           ]
-        }
-      ]
-    },
-    {
-      "title": "Statements",
-      "description": "Learn statements in Yoruba",
-      "subLesson":  [
+        },
         {
           "title": "Statements 2",
           "description": "Common statements",
@@ -2716,6 +2710,66 @@
             {
               "English": "So the house can be cleaned",
               "Yoruba": "Kílé ó le dára sí i"
+            }
+          ]
+        },
+        {
+          "title": "If I am walking",
+          "description": "Common Yoruba statement",
+          "tasks": ["EXERCISE", "EASY", "HARD", "READING", "MEMORY", "RAPID"],
+          "type": null,
+          "text": [
+            {
+              "English": "If I am walking",
+              "Yoruba": "Bí mo bá ń rìn"
+            },
+            {
+              "English": "If I am running",
+              "Yoruba": "Bí mo bá ń sáré"
+            },
+            {
+              "English": "I will be wearing my shoe all the time",
+              "Yoruba": "N ó má bọ bàtà nígbà gbogbo"
+            },
+            {
+              "English": "So that I won't match on bottles",
+              "Yoruba": "Kí n má báà fẹsẹ̀ bọ̀gò"
+            },
+            {
+              "English": "So that I won't hurt my feet",
+              "Yoruba": "Kí n má baà fẹsẹ̀ gún"
+            },
+            {
+              "English": "So that I won't step on chicken faeces",
+              "Yoruba": "Kí n má baà fẹsẹ̀ yígbẹ̀ẹ́ adìẹ"
+            },
+            {
+              "English": "I will be wearing my shoe all the time",
+              "Yoruba": "N ó máa bọ bàtà lásìkò lásìkò"
+            },
+            {
+              "English": "A village child hold his shoes",
+              "Yoruba": "Ọmọ oko ní i kó bàtà lọ́wọ́"
+            },
+            {
+              "English": "A village child walks bare footed",
+              "Yoruba": "Ọmọ ẹgàn ní í fẹsẹ̀ lásán rìn"
+            },
+            {
+              "English": "Even in the passage",
+              "Yoruba": "Kódà bó ṣààrin ọ̀dẹ̀dẹ̀"
+            },
+            {
+              "English": "If it is in school",
+              "Yoruba": "Bó sì jẹ́ ilé ìwé"
+            },
+            {
+              "English": "Even if it is outside",
+              "Yoruba": "Àní bó sì jẹ́ ìta gbangba"
+            },
+            {
+              "English": "Shoes won't leave my feet",
+              "Yoruba": "Bàtà ò ní tẹsẹ̀ mi kúrò"
             }
           ]
         }
