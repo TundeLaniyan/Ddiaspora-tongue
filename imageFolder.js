@@ -8,8 +8,13 @@ const imageArray = [];
 const audioArray = [];
 const unique = new Set();
 
+let display = [];
+
 function toCamelcase(str) {
   return str.toLowerCase()
+  .replaceAll('(', '$')
+  .replaceAll(')', '$')
+  .replaceAll(':', '$')
   .replace(new RegExp(/[-+?,_]+/, 'g'), ' ')
   .replace(
     new RegExp(/\s+(.)(\w*)/, 'g'),
@@ -28,27 +33,28 @@ const writeList = (file, arr) => {
     name: file.split('.')[0],
     print: `export { default as ${toCamelcase(file.split('.')[0])} } from "./${file}"`
   }
-  arr.push(obj);
-  // if (file.includes('.') && !file.includes('.DS_Store') && !file.includes('index.js') ) {
-  //   const name = file.split('.')[0];
-  //   if (file === 'ẹ') console.log('this file: ', file);
-  //   if (!unique.has(toCamelcase(name))) {
-  //     unique.add(toCamelcase(name));
-  //     arr.unshift(`export { default as ${toCamelcase(name)} } from "./${file}"`);
-  //   }
-  //   else {
-  //     // console.log(file);
-  //   }
-  // }
+  // arr.push(obj);
+  if (file.includes('.') && !file.includes('.DS_Store') && !file.includes('index.js') ) {
+    const name = file.split('.')[0];
+    // if (file === 'ẹ') console.log('this file: ', file);
+    if (!unique.has(toCamelcase(name))) {
+      display.push(name)
+      unique.add(toCamelcase(name));
+      arr.unshift(`export { default as ${toCamelcase(name)} } from "./${file}"`);
+    }
+    else {
+      // console.log(file);
+    }
+  }
 }
 
-// fs.readdirSync(assetFolder).sort().reverse().forEach(file => writeList(file, assetArray)); unique.clear();
-// fs.readdirSync(imageFolder).sort().reverse().forEach(file => writeList(file, imageArray)); unique.clear();
-fs.readdirSync(audioFolder).sort().forEach(file => writeList(file, audioArray)); console.log('unique');
+fs.readdirSync(imageFolder).sort().reverse().forEach(file => writeList(file, imageArray)); unique.clear(); console.log(display); display = [];
+fs.readdirSync(audioFolder).sort().forEach(file => writeList(file, audioArray)); unique.clear(); console.log(display); display = [];
+fs.readdirSync(assetFolder).sort().reverse().forEach(file => writeList(file, assetArray));
 
-// fs.writeFileSync(__dirname + '/app/assets/index.js', assetArray.join('\n'));
-// fs.writeFileSync(__dirname + '/app/assets/images/index.js', imageArray.join('\n'));
-// fs.writeFileSync(__dirname + '/app/assets/audio/yoruba/index.js', audioArray.join('\n'));
+fs.writeFileSync(__dirname + '/app/assets/index.js', assetArray.join('\n'));
+fs.writeFileSync(__dirname + '/app/assets/images/index.js', imageArray.join('\n'));
+fs.writeFileSync(__dirname + '/app/assets/audio/yoruba/index.js', audioArray.join('\n'));
 fs.writeFileSync(__dirname + '/audioChecker.js', JSON.stringify(audioArray, null, 2));
 
 console.log('success');

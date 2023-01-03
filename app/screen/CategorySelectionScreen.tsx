@@ -17,14 +17,19 @@ function CategorySelectScreen({ navigation }: Props): ReactElement<Props> {
       <Text style={styles.title}>Welcome</Text>
       <Text style={styles.subTitle}>Choose your catergory and procceed to start learining youruba</Text>
       <View style={styles.container}>
-        {lesson.map((cur, index) =>
-          <SelectionCard 
+        {lesson.map((cur, index) => {
+
+          console.log({
+            Image: images(cur.title),
+          })
+          return <SelectionCard 
             key={index}
             category={index}
             style={index === lesson.length - 1 && styles.containerLast}
             title={cur.title} 
             Image={images(cur.title)}
             navigation={navigation} />
+        }
         )}
       </View>
     </ScrollView>

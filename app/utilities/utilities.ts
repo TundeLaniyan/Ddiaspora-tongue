@@ -1,6 +1,6 @@
 import { NATIVELANGUAGE, TARGETLANGUAGE } from "./constant";
 import { lesson } from "../../data.json";
-import images from '../utilities/images'
+import images from './images'
 import { View } from "react-native";
 // import Sound from "./Sound";
 
@@ -78,6 +78,19 @@ class Utilities {
     return { text, lesson: currentLesson };
   };
   static toCamelcase(str: string): string {
+    return str.toLowerCase()
+    .replaceAll('(', '$')
+    .replaceAll(')', '$')
+    .replaceAll(':', '$')
+    .replace(new RegExp(/[-+?,_]+/, 'g'), ' ')
+    .replace(
+      new RegExp(/\s+(.)(\w*)/, 'g'),
+      ($1, $2, $3) => `${$2.toUpperCase() + $3.toLowerCase()}`
+    )
+    .replace("'", "")
+    .replace(new RegExp(/\w/), (s, index) => index > 0 ? s.toUpperCase() : s);
+  }
+  static toCamelcase2(str: string): string {
     return str.toLowerCase()
     .replace(new RegExp(/[-+?,_]+/, 'g'), ' ')
     .replace(

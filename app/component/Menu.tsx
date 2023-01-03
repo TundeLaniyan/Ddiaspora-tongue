@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react';
 import { View, StyleSheet } from 'react-native';
 
-import Button from "../component/Button";
+import Button from "./Button";
 
 type Props = {
   auto: any;

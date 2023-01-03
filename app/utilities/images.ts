@@ -1,12 +1,14 @@
-import images from '../assets/images';
-import assetImages from '../assets';
+import * as images from '../assets/images';
+import * as assetImages from '../assets';
 import React, { ReactElement } from 'react';
 import { Image } from 'react-native';
+import Utilities from './utilities';
 
-const defaultImage = images['ablution'];
+const defaultImage = images['answer'];
 
 const imageSource = (url: string): any => {
-  return images[url.toLowerCase()] || defaultImage
+  console.log(Utilities.toCamelcase(url))
+  return images[Utilities.toCamelcase(url)] || defaultImage
 }
 
 export const assetImage = (url: string): any => {

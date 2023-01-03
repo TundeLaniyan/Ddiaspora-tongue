@@ -1,6 +1,6 @@
 import { Audio, AVPlaybackStatus } from 'expo-av';
 import logger from '../../store/middleware/logger';
-import audio from '../assets/audio/yoruba';
+import * as audio from '../assets/audio/yoruba';
 
 export class Sound {
   #audio: { sound: Audio.Sound; status: AVPlaybackStatus; } | undefined;

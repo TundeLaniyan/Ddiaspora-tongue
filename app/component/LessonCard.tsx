@@ -62,7 +62,8 @@ const styles = StyleSheet.create({
     fontSize: 16,
     marginBottom: 10,
     color: colors.text,
-  }
+  },
+  lessonContent: {}
 });
 
 export default LessonCard;

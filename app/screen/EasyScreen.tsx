@@ -27,7 +27,7 @@ function EasyScreen({ navigation }: Props): ReactElement<Props> {
   const dispatch = useDispatch()
   const { category, lecture }: { category: number, lecture: number } = useSelector(({ entities }: any) => entities.exercise);
   
-  const ACCENT = lecture < 3 && category === 0;
+  const ACCENT = false; //lecture < 3 && category === 0;
   const [state, setState] = useState<number[]>([]);
   const [soundState, setSoundState] = useState<number>();
   const [answer, setAnswer] = useState<number>();
