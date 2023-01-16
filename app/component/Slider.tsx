@@ -21,11 +21,9 @@ function Slider({ auto, random, exercise, setExercise, Game }: Props): ReactElem
   const { lecture, category } = useSelector(({ entities }: any) => entities.exercise);
   const max = lesson[category].subLesson[lecture].text.length;
 
-  useEffect(
-    () => auto && Game.playAudio(lecture, exercise),
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    [exercise]
-  );
+  useEffect(() => { 
+    auto && Game.playAudio(lecture, exercise) 
+  }, [exercise]);
 
   const randomNumber = (prev: number, value: number) => {
     if (random) return Math.ceil(Math.random() * max);

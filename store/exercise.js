@@ -6,6 +6,7 @@ const slice = createSlice({
         category: 0,
         lecture: 0,
         task: '',
+        navigation: true,
     },
     reducers: {
         categorySelect: (exercise, action) => {
@@ -17,8 +18,14 @@ const slice = createSlice({
         taskSelect: (exercise, action) => {
             exercise.task = action.payload;
         },
+        disableNavigation: (exercise) => {
+            exercise.navigation = false;
+        },
+        enableNaviagtion: (exercise) => {
+            exercise.navigation = true;
+        },
     }
 });
 
-export const { categorySelect, lectureSelect, taskSelect } = slice.actions;
+export const { categorySelect, lectureSelect, taskSelect, disableNavigation, enableNaviagtion } = slice.actions;
 export default slice.reducer;

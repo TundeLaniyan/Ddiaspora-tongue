@@ -57,7 +57,7 @@ function MemoryScreen({ navigation }: Props): ReactElement<Props> {
       Game.endGame({
         result: (200 * correct) / ((1 + gameLimit) * gameLimit + incorrect * 2),
         exercise: "MEMORY",
-        setProgress: (progress: any) => dispatch(setProgress(progress)),
+        dispatch,
         navigation
       });
     // eslint-disable-next-line react-hooks/exhaustive-deps

@@ -56,7 +56,7 @@ const ReadingScreen = memo(function ({ navigation }: Props): ReactElement<Props>
       Game.endGame({
         result: (100 * (correct - incorrect)) / correct,
         exercise: "READING",
-        setProgress: (progress: any) => dispatch(setProgress(progress)),
+        dispatch,
         navigation,
       });
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -111,7 +111,7 @@ const ReadingScreen = memo(function ({ navigation }: Props): ReactElement<Props>
   return (
     <View style={styles.reading}>
       <Text style={styles.textBlock}>
-        {answer ? 
+        {typeof answer === 'number' ? 
           Utilities.searchData({ 
             category, lecture, exercise: answer, language: TARGETLANGUAGE
           }) : 

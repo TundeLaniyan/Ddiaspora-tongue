@@ -1,12 +1,12 @@
 {
   "lesson": [
     {
-      "title": "Language foundation",
+      "title": "Opposites",
       "description": "Learn the foundation of Yoruba",
       "subLesson": [
         {
-          "title": "Short sentence",
-          "description": "Constructing small sentence",
+          "title": "Part 1",
+          "description": "Words and their opposites",
           "tasks": ["EXERCISE", "EASY", "HARD", "READING", "MEMORY", "RAPID"],
           "type": null,
           "text": [
@@ -89,276 +89,773 @@
             {
               "English": "answer",
               "Yoruba": "dáhun"
+            },
+            {
+              "English": "open",
+              "Yoruba": "ṣi"
+            },
+            {
+              "English": "closed",
+              "Yoruba": "de"
+            },
+            {
+              "English": "begin",
+              "Yoruba": "bẹrẹ"
+            },
+            {
+              "English": "end",
+              "Yoruba": "òpín"
+            },
+            {
+              "English": "up",
+              "Yoruba": "òkè"
+            },
+            {
+              "English": "down",
+              "Yoruba": "ilẹ̀"
             }
           ]
         },
         {
-          "title": "Short sentence 2",
-          "description": "Constructing small sentence 2",
+          "title": "Part 2",
+          "description": "Words and their opposites",
           "tasks": ["EXERCISE", "EASY", "HARD", "READING", "MEMORY", "RAPID"],
           "type": null,
           "text": [
             {
-              "English": "to justify",
-              "Yoruba": "dálare"
+              "English": "white",
+              "Yoruba": "funfun"
             },
             {
-              "English": "to condemn",
-              "Yoruba": "dálẹbi"
+              "English": "black",
+              "Yoruba": "dudu"
             },
             {
-              "English": "stand",
+              "English": "different",
+              "Yoruba": "yàtọ̀"
+            },
+            {
+              "English": "same",
+              "Yoruba": "òkanna"
+            },
+            {
+              "English": "single",
+              "Yoruba": "ókan"
+            },
+            {
+              "English": "double",
+              "Yoruba": "ìṣẹ́po méjì"
+            },
+            {
+              "English": "wet",
+              "Yoruba": "tutu"
+            },
+            {
+              "English": "dry",
+              "Yoruba": "gbẹ"
+            },
+            {
+              "English": "tall",
+              "Yoruba": "gíga"
+            },
+            {
+              "English": "short",
+              "Yoruba": "kúrú"
+            },
+            {
+              "English": "take",
+              "Yoruba": "gbà"
+            },
+            {
+              "English": "give",
+              "Yoruba": "fun"
+            },
+            {
+              "English": "death",
+              "Yoruba": "ikú"
+            },
+            {
+              "English": "birth",
+              "Yoruba": "ìbi"
+            },
+            {
+              "English": "strength",
+              "Yoruba": "ílera"
+            },
+            {
+              "English": "weak",
+              "Yoruba": "làilera"
+            },
+            {
+              "English": "war",
+              "Yoruba": "ogun"
+            },
+            {
+              "English": "peace",
+              "Yoruba": "àlafìa"
+            }
+          ]
+        },
+        {
+          "title": "Part 3",
+          "description": "Words and their opposites",
+          "tasks": ["EXERCISE", "EASY", "HARD", "READING", "MEMORY", "RAPID"],
+          "type": null,
+          "text": [
+            {
+              "English": "empty",
+              "Yoruba": "ófo"
+            },
+            {
+              "English": "full",
+              "Yoruba": "kún"
+            },
+            {
+              "English": "friend",
+              "Yoruba": "ọ̀rẹ́"
+            },
+            {
+              "English": "enemy",
+              "Yoruba": "ọ̀tá"
+            },
+            {
+              "English": "little",
+              "Yoruba": "díẹ̀"
+            },
+            {
+              "English": "plenty",
+              "Yoruba": "púpọ̀"
+            },
+            {
+              "English": "heavy",
+              "Yoruba": "wúwo"
+            },
+            {
+              "English": "light(load)",
+              "Yoruba": "fúyẹ́"
+            },
+            {
+              "English": "laugh",
+              "Yoruba": "rẹ́rin"
+            },
+            {
+              "English": "cry",
+              "Yoruba": "sukún"
+            },
+            {
+              "English": "near",
+              "Yoruba": "nítòsí"
+            },
+            {
+              "English": "far",
+              "Yoruba": "jìnà"
+            },
+            {
+              "English": "bad",
+              "Yoruba": "búburú"
+            },
+            {
+              "English": "good",
+              "Yoruba": "ire"
+            },
+            {
+              "English": "lost",
+              "Yoruba": "sọnù"
+            },
+            {
+              "English": "found",
+              "Yoruba": "ri"
+            },
+            {
+              "English": "joyfulness",
+              "Yoruba": "ayọ̀"
+            },
+            {
+              "English": "sadness",
+              "Yoruba": "ìbànújé"
+            },
+            {
+              "English": "useful",
+              "Yoruba": "dáranílò"
+            },
+            {
+              "English": "useless",
+              "Yoruba": "láìnilárí"
+            },
+            {
+              "English": "impossible",
+              "Yoruba": "ṣòro"
+            },
+            {
+              "English": "possible",
+              "Yoruba": "ṣíṣe"
+            },
+            {
+              "English": "needy",
+              "Yoruba": "táláka"
+            },
+            {
+              "English": "rich",
+              "Yoruba": "lówó"
+            },
+            {
+              "English": "wake",
+              "Yoruba": "jí"
+            },
+            {
+              "English": "sleep",
+              "Yoruba": "sùn"
+            }
+          ]
+        },
+        {
+          "title": "Part 4",
+          "description": "Words and their opposites",
+          "tasks": ["EXERCISE", "EASY", "HARD", "READING", "MEMORY", "RAPID"],
+          "type": null,
+          "text": [
+            {
+              "English": "big",
+              "Yoruba": "tóbi"
+            },
+            {
+              "English": "small",
+              "Yoruba": "kékeré"
+            },
+            {
+              "English": "soft",
+              "Yoruba": "rọ̀"
+            },
+            {
+              "English": "hard",
+              "Yoruba": "le"
+            },
+            {
+              "English": "run",
+              "Yoruba": "sáré"
+            },
+            {
+              "English": "stay",
               "Yoruba": "dúro"
             },
             {
-              "English": "stand up",
-              "Yoruba": "dide"
+              "English": "fight",
+              "Yoruba": "ìjà"
             },
             {
-              "English": "speak",
-              "Yoruba": "ṣọrọ"
+              "English": "peace",
+              "Yoruba": "àlafìa"
             },
             {
-              "English": "sit",
-              "Yoruba": "joko"
+              "English": "wisdom",
+              "Yoruba": "ọ́gbọ́n"
             },
             {
-              "English": "quite",
-              "Yoruba": "dakẹ"
+              "English": "foolish",
+              "Yoruba": "gọ̀"
             },
             {
-              "English": "question",
-              "Yoruba": "ibere"
+              "English": "force",
+              "Yoruba": "ipá"
             },
             {
-              "English": "night",
-              "Yoruba": "àlè"
+              "English": "induce",
+              "Yoruba": "tan"
             },
             {
-              "English": "morning",
-              "Yoruba": "òwúrọ̀"
+              "English": "true",
+              "Yoruba": "lotọ́"
             },
             {
-              "English": "male",
-              "Yoruba": "akọ"
+              "English": "false",
+              "Yoruba": "láisotọ"
             },
             {
-              "English": "light",
-              "Yoruba": "ìmọlẹ"
+              "English": "fear",
+              "Yoruba": "ibẹ̀ru"
             },
             {
-              "English": "go",
-              "Yoruba": "lọ"
+              "English": "confidence",
+              "Yoruba": "ìgbẹkẹle"
             },
             {
-              "English": "female",
-              "Yoruba": "obi"
+              "English": "fat",
+              "Yoruba": "sánrà"
             },
             {
-              "English": "dirt",
-              "Yoruba": "ẹ̀gbin"
+              "English": "thin",
+              "Yoruba": "tínrín"
             },
             {
-              "English": "darkness",
-              "Yoruba": "okunkun"
+              "English": "argue",
+              "Yoruba": "jiyàn"
             },
             {
-              "English": "come",
-              "Yoruba": "wa"
+              "English": "agree",
+              "Yoruba": "ìfìmọ̀ṣọkan"
             },
             {
-              "English": "clean",
-              "Yoruba": "mọ"
+              "English": "aged",
+              "Yoruba": "gbó"
             },
             {
-              "English": "bend",
-              "Yoruba": "bẹrẹ"
+              "English": "young",
+              "Yoruba": "ṣọmọdé"
             },
             {
-              "English": "answer",
-              "Yoruba": "dáhun"
+              "English": "intention",
+              "Yoruba": "ero"
+            },
+            {
+              "English": "accident",
+              "Yoruba": "ìjàmbá"
+            },
+            {
+              "English": "accumulation",
+              "Yoruba": "ìkójọ"
+            },
+            {
+              "English": "disperse",
+              "Yoruba": "túká"
             }
           ]
         }
       ]
     },
     {
-      "title": "Language foundation 2",
+      "title": "Short sentences",
       "description": "Learn the foundation of Yoruba",
       "subLesson": [
         {
-          "title": "Short sentence 3",
+          "title": "Part 1",
           "description": "Constructing small sentence",
           "tasks": ["EXERCISE", "EASY", "HARD", "READING", "MEMORY", "RAPID"],
           "type": null,
           "text": [
             {
-              "English": "to justify",
-              "Yoruba": "dálare"
+              "English": "I lost my watch",
+              "Yoruba": "mo sọ aago mi nù"
             },
             {
-              "English": "to condemn",
-              "Yoruba": "dálẹbi"
+              "English": "I will take it",
+              "Yoruba": "má mu"
             },
             {
-              "English": "stand",
-              "Yoruba": "dúro"
+              "English": "I will pay",
+              "Yoruba": "má sán"
             },
             {
-              "English": "stand up",
-              "Yoruba": "dide"
+              "English": "come back later",
+              "Yoruba": "padà wa nígbàmì"
             },
             {
-              "English": "speak",
-              "Yoruba": "ṣọrọ"
+              "English": "I will come back",
+              "Yoruba": "ma padà wa"
             },
             {
-              "English": "sit",
-              "Yoruba": "joko"
+              "English": "I don't know",
+              "Yoruba": "mi ò mọ̀"
             },
             {
-              "English": "quite",
-              "Yoruba": "dakẹ"
+              "English": "I know",
+              "Yoruba": "mó-mọ̀"
             },
             {
-              "English": "question",
-              "Yoruba": "ibere"
+              "English": "I have a headache",
+              "Yoruba": "mo ní orí fífọ́"
             },
             {
-              "English": "night",
-              "Yoruba": "àlè"
+              "English": "I feel good",
+              "Yoruba": "ínú mi dùn"
             },
             {
-              "English": "morning",
-              "Yoruba": "òwúrọ̀"
+              "English": "I don't want to bother you",
+              "Yoruba": "mí ò fẹ́ yọ́ lẹ́nu"
             },
             {
-              "English": "male",
-              "Yoruba": "akọ"
+              "English": "I don't want that",
+              "Yoruba": "mí ò fẹ́ yẹn"
             },
             {
-              "English": "light",
-              "Yoruba": "ìmọlẹ"
+              "English": "I don't want",
+              "Yoruba": "mí ò fẹ"
             },
             {
-              "English": "go",
-              "Yoruba": "lọ"
+              "English": "I don't understand",
+              "Yoruba": "kò yé mi"
             },
             {
-              "English": "female",
-              "Yoruba": "obi"
+              "English": "speak louder",
+              "Yoruba": "sọ́rọ sókè"
             },
             {
-              "English": "dirt",
-              "Yoruba": "ẹ̀gbin"
+              "English": "I don't like it at all",
+              "Yoruba": "èmi kò fẹ́ranrẹ̀ rárá"
             },
             {
-              "English": "darkness",
-              "Yoruba": "okunkun"
+              "English": "I ate already",
+              "Yoruba": "mo ti jẹun ná"
             },
             {
-              "English": "come",
-              "Yoruba": "wa"
+              "English": "I can't hear you",
+              "Yoruba": "mi ò lè gbọ́ ẹ"
             },
             {
-              "English": "clean",
-              "Yoruba": "mọ"
+              "English": "how are you",
+              "Yoruba": "báwo ni"
             },
             {
-              "English": "bend",
-              "Yoruba": "bẹrẹ"
+              "English": "how's work going",
+              "Yoruba": "sésẹ́ nlọ"
             },
             {
-              "English": "answer",
-              "Yoruba": "dáhun"
+              "English": "she's very famous",
+              "Yoruba": "ó lókíkì púpọ̀"
+            },
+            {
+              "English": "he's very annoying",
+              "Yoruba": "ó ní yọ lénu púpọ̀"
+            },
+            {
+              "English": "he's coming soon",
+              "Yoruba": "ó n bọ̀ láìpẹ"
+            },
+            {
+              "English": "he's right",
+              "Yoruba": "óṣòtitó"
+            },
+            {
+              "English": "good idea",
+              "Yoruba": "ìrò ire"
+            },
+            {
+              "English": "excellent",
+              "Yoruba": "óni wà réré nlá"
+            },
+            {
+              "English": "from time to time",
+              "Yoruba": "àkókò sí àkókò"
+            },
+            {
+              "English": "everything is ready",
+              "Yoruba": "ohùn gbogbo tí múra sílẹ"
+            },
+            {
+              "English": "everyone knows it",
+              "Yoruba": "gbogbo ènìyàn mọ"
+            },
+            {
+              "English": "don't worry",
+              "Yoruba": "má ṡè yọnụ"
+            },
+            {
+              "English": "be careful",
+              "Yoruba": "ṣọ́ ra"
             }
           ]
         },
         {
-          "title": "Short sentence 4",
+          "title": "Part 2",
+          "description": "Constructing small sentence",
+          "tasks": ["EXERCISE", "EASY", "HARD", "READING", "MEMORY", "RAPID"],
+          "type": null,
+          "text": [
+            {
+              "English": "may I speak to miss labake",
+              "Yoruba": "sẹ mo le ba omidan labake sọrọ"
+            },
+            {
+              "English": "lets sing",
+              "Yoruba": "jẹ ki a kọrin"
+            },
+            {
+              "English": "lets play",
+              "Yoruba": "jẹ ki a ṣere"
+            },
+            {
+              "English": "let me think about it",
+              "Yoruba": "jẹ ki n ronu nipa rẹ"
+            },
+            {
+              "English": "let me check",
+              "Yoruba": "jẹ ki n wò"
+            },
+            {
+              "English": "just for a moment",
+              "Yoruba": "gẹgẹ fun iseju kan"
+            },
+            {
+              "English": "we have never seen that before",
+              "Yoruba": "a ko rii iyẹn ri"
+            },
+            {
+              "English": "just for a while",
+              "Yoruba": "gẹgẹ fun igba diẹ"
+            },
+            {
+              "English": "I have been here for three days",
+              "Yoruba": "mo ti wa nibi fun ọjọ mẹta"
+            },
+            {
+              "English": "I think it is very good",
+              "Yoruba": "mo ni iro pe o dara pupọ"
+            },
+            {
+              "English": "is that enough",
+              "Yoruba": "ṣe iyẹn to"
+            },
+            {
+              "English": "I need to go home",
+              "Yoruba": "o yẹ kin lọ ile"
+            },
+            {
+              "English": "change your clothes",
+              "Yoruba": "parọ aṣọ rẹ"
+            },
+            {
+              "English": "time has gone",
+              "Yoruba": "àkókò ti lọ"
+            },
+            {
+              "English": "time is going",
+              "Yoruba": "àkókò ń lọ"
+            },
+            {
+              "English": "I am thirsty",
+              "Yoruba": "òùngbẹ ń gbẹ mí"
+            },
+            {
+              "English": "I am not sure",
+              "Yoruba": "ko da mi loju"
+            },
+            {
+              "English": "I am certain",
+              "Yoruba": "o da mi loju"
+            },
+            {
+              "English": "I am not ready yet",
+              "Yoruba": "mò ti ṣetan"
+            },
+            {
+              "English": "I'm tired",
+              "Yoruba": "o re mi"
+            },
+            {
+              "English": "I'm married",
+              "Yoruba": "mo ti ni iyawo"
+            },
+            {
+              "English": "has he arrived",
+              "Yoruba": "ṣe o ti de"
+            },
+            {
+              "English": "I'll be going home soon",
+              "Yoruba": "ma lọ laipẹ"
+            },
+            {
+              "English": "clean the kitchen",
+              "Yoruba": "pa ile idana ounje mọ"
+            },
+            {
+              "English": "I'm a yoruba boy",
+              "Yoruba": "ọmọ yoruba ni mi"
+            }
+          ]
+        },
+        {
+          "title": "Part 3",
           "description": "Constructing small sentence 2",
           "tasks": ["EXERCISE", "EASY", "HARD", "READING", "MEMORY", "RAPID"],
           "type": null,
           "text": [
             {
-              "English": "to justify",
-              "Yoruba": "dálare"
+              "English": "let's dance",
+              "Yoruba": "jẹ́ ka jó"
+            },
+            {            
+              "English": "more than that",
+              "Yoruba": "jù bẹ́ẹ́ lọ"
+            },
+            {            
+              "English": "never mind",
+              "Yoruba": "má ṣè yọnu"
+            },
+            {            
+              "English": "next time",
+              "Yoruba": "ní gbà míràn"
+            },
+            {            
+              "English": "next week",
+              "Yoruba": "ọ̀sẹ̀ tó n bọ́"
+            },
+            {            
+              "English": "no thank you",
+              "Yoruba": "rárá o ṣeun"
+            },
+            {            
+              "English": "no",
+              "Yoruba": "rárá"
+            },
+            {            
+              "English": "it's just happening",
+              "Yoruba": "ó n ṣẹlẹ̀ gẹ́gẹ́"
+            },
+            {            
+              "English": "another day",
+              "Yoruba": "ọjọ́ mi"
+            },
+                        
+            {            
+              "English": "right here",
+              "Yoruba": "níbí gangan"
+            },
+            {            
+              "English": "see you later",
+              "Yoruba": "mà a rí ẹ láipẹ"
+            },
+            {            
+              "English": "see you tomorrow",
+              "Yoruba": "mà a rí ọ ní ọ̀la"
+            },
+            {            
+              "English": "see you tonight",
+              "Yoruba": "mà a rí ẹ lálẹ́ ònì"
+            },
+            {            
+              "English": "see you in the evening",
+              "Yoruba": "mà a rí ẹ ní àṣálẹ́"
+            },
+            {            
+              "English": "when you are done",
+              "Yoruba": "nígbatí o bá ti parí"
+            },
+            {            
+              "English": "take it outside",
+              "Yoruba": "mu jáde"
+            },
+            {            
+              "English": "take it inside",
+              "Yoruba": "mu wọlé"
+            },
+            {            
+              "English": "tell me",
+              "Yoruba": "sọ fún mi"
+            },
+            {            
+              "English": "thanks for your help",
+              "Yoruba": "o ṣeun fún ìrànlọ́wọ́ rẹ"
+            },
+            {            
+              "English": "thanks for everything",
+              "Yoruba": "o ṣeun fún ohun gbogbo"
             },
             {
-              "English": "to condemn",
-              "Yoruba": "dálẹbi"
+              "English": "hope nothing",
+              "Yoruba": "ṣé kò sí"
             },
             {
-              "English": "stand",
-              "Yoruba": "dúro"
+              "English": "hope there is no problem",
+              "Yoruba": "ṣé kò si ǹkan"
+            },
+            {            
+              "English": "that looks great",
+              "Yoruba": "èyi dabi ńlá"
+            },
+            {            
+              "English": "that smells bad",
+              "Yoruba": "ìyén run búburú"
+            }
+          ]
+        },
+        {
+          "title": "Part 4",
+          "description": "Constructing small sentence 2",
+          "tasks": ["EXERCISE", "EASY", "HARD", "READING", "MEMORY", "RAPID"],
+          "type": null,
+          "text": [
+            {            
+              "English": "that's enough",
+              "Yoruba": "ìyẹ́n ti tó"
+            },
+            {            
+              "English": "it is okay",
+              "Yoruba": "ó dá ra"
+            },
+            {            
+              "English": "that is not fair",
+              "Yoruba": "íyen kò ṣè òtítọ́"
+            },
+            {            
+              "English": "that is too bad",
+              "Yoruba": "ìyẹ́n burú jù"
+            },
+            {            
+              "English": "you are wicked",
+              "Yoruba": "o burú"
+            },
+            {            
+              "English": "they are the same",
+              "Yoruba": "wọ́n jẹ́ kannà"
+            },
+            {            
+              "English": "that won't work",
+              "Yoruba": "ìyẹ́n kò ni ṣiṣẹ́"
+            },
+            {            
+              "English": "that doesn't work",
+              "Yoruba": "ìyẹ́n kò kín ṣisẹ́"
+            },
+            {            
+              "English": "thats's very important",
+              "Yoruba": "ìyẹ́n ṣe pàtàkì púpọ̀"
+            },
+            {            
+              "English": "try it",
+              "Yoruba": "danwò"
+            },
+            {            
+              "English": "its very good",
+              "Yoruba": "ó dá ra púpọ̀"
+            },
+            {            
+              "English": "you are beautiful",
+              "Yoruba": "o lẹ́wà"
+            },
+            {            
+              "English": "everything is here",
+              "Yoruba": "ohun gbogbó wà níbí"
+            },
+            {            
+              "English": "pay your debt",
+              "Yoruba": "san gbèsè rẹ"
+            },
+            {            
+              "English": "how much is it",
+              "Yoruba": "èlo ní"
+            },
+            {            
+              "English": "how much do I owe you",
+              "Yoruba": "èlo ni mo jẹ ẹ́"
+            },
+            {            
+              "English": "my girlfriend",
+              "Yoruba": "ọ̀rẹ́bìnrín mi"
+            },
+            {            
+              "English": "my boyfriend",
+              "Yoruba": "òrẹ́kúnrin mi"
+            },
+            {            
+              "English": "how old are you",
+              "Yoruba": "ọmọ ọdún mélò ni ẹ́"
+            },
+            {            
+              "English": "write this down",
+              "Yoruba": "kọ èyì silẹ.aac"
             },
             {
-              "English": "stand up",
-              "Yoruba": "dide"
-            },
-            {
-              "English": "speak",
-              "Yoruba": "ṣọrọ"
-            },
-            {
-              "English": "sit",
-              "Yoruba": "joko"
-            },
-            {
-              "English": "quite",
-              "Yoruba": "dakẹ"
-            },
-            {
-              "English": "question",
-              "Yoruba": "ibere"
-            },
-            {
-              "English": "night",
-              "Yoruba": "àlè"
-            },
-            {
-              "English": "morning",
-              "Yoruba": "òwúrọ̀"
-            },
-            {
-              "English": "male",
-              "Yoruba": "akọ"
-            },
-            {
-              "English": "light",
-              "Yoruba": "ìmọlẹ"
-            },
-            {
-              "English": "go",
-              "Yoruba": "lọ"
-            },
-            {
-              "English": "female",
-              "Yoruba": "obi"
-            },
-            {
-              "English": "dirt",
-              "Yoruba": "ẹ̀gbin"
-            },
-            {
-              "English": "darkness",
-              "Yoruba": "okunkun"
-            },
-            {
-              "English": "come",
-              "Yoruba": "wa"
-            },
-            {
-              "English": "clean",
-              "Yoruba": "mọ"
-            },
-            {
-              "English": "bend",
-              "Yoruba": "bẹrẹ"
-            },
-            {
-              "English": "answer",
-              "Yoruba": "dáhun"
+              "English": "good day",
+              "Yoruba": "ọjọ́ rere.aac"
             }
           ]
         }
@@ -366,3 +863,5 @@
     }
   ]
 }
+
+

@@ -1,6 +1,7 @@
 import { Audio, AVPlaybackStatus } from 'expo-av';
 import logger from '../../store/middleware/logger';
 import * as audio from '../assets/audio/yoruba';
+import Utilities from './utilities';
 
 export class Sound {
   #audio: { sound: Audio.Sound; status: AVPlaybackStatus; } | undefined;
@@ -8,7 +9,7 @@ export class Sound {
   url = '';
 
   async init() {
-    this.#audio = await Audio.Sound.createAsync(audio.b);
+    this.#audio = await Audio.Sound.createAsync(audio.akọ);
   }
 
   async stop() { 
@@ -30,7 +31,7 @@ export class Sound {
 
   async play(url: string) {
     await this.stop();
-    const soundFile = audio[url.toLowerCase().replaceAll('?', '')];
+    const soundFile = audio[Utilities.toCamelcase(url)];
     
     if (!soundFile) return console.log(url + ': audio not found!');
     this.url = url;

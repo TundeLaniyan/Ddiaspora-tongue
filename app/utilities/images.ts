@@ -1,18 +1,17 @@
 import * as images from '../assets/images';
 import * as assetImages from '../assets';
 import React, { ReactElement } from 'react';
-import { Image } from 'react-native';
-import Utilities from './utilities';
+import toCamelcase from './toCamelcase';
+// import { Image } from 'react-native';
 
 const defaultImage = images['answer'];
 
 const imageSource = (url: string): any => {
-  console.log(Utilities.toCamelcase(url))
-  return images[Utilities.toCamelcase(url)] || defaultImage
+  return images[toCamelcase(url)] || defaultImage
 }
 
 export const assetImage = (url: string): any => {
-  return assetImages[url.toLowerCase()] || defaultImage
+  return assetImages[toCamelcase(url)] || defaultImage
 }
 
 // export const Imagea = (url: string): any => {

@@ -19,5 +19,6 @@ lesson.forEach(lesson => {
 imageFix.sort();
 // console.log(JSON.stringify(imageFix.join('\n')));
 fs.writeFileSync('./missingImages.txt', imageFix.join('\n'))
+console.log(imageFix);
 console.log(imageFix.length);
 // console.log(image.includes("Ma fọṣọ tó rírí a".toLowerCase()))

@@ -71,13 +71,10 @@ function EasyScreen({ navigation }: Props): ReactElement<Props> {
     else {
       const result = (gameLimit * 100) / (gameLimit + incorrect);
       Game.endGame({
-        setProgress: (progress: any) => {
-          console.log("internal call", progress)
-          return dispatch(setProgress(progress))
-        },
         result,
         exercise: "EASY",
         navigation,
+        dispatch
       });
     }
   }

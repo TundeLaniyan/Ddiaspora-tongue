@@ -1,211 +1,31 @@
-Are you allergic to anything
-Are you married?
-Arrived
-Be patience
-Bond
-Break
-Calm down
-Can you explain what this word mean?
-Can you help me?
-Can you please call an ambulance?
-Can you please repeat the sentence
-Can you please say it again
-Can you please speak a little slower
-Can you please spell the word
-Can you please write it down
-Do not care about what others have to say
-Do you agree?
-Do you have a boyfriend?
-Do you have a girlfriend?
-Do you have a menu
-Do you like to drink tea
-Do you like to drink wine
-Do you love me?
-Do you need help?
-Do you want tea or water
-Don't talk
-Don't waste time
-Don't worry
-Draw me a sheep
-Have a nice weekend
-Have you eaten enough
-He/She/It
-He/She/It
-He/She/It (prenominals)
-Hello everybody
-How dare you talk to me like that
-How do you know?
-How is the weather today
-How much is everything together
-How old are you?
-I already ate
-I am 25 years old
-I am Gambian
-I am Ghanaian
-I am Nigerian
-I am full and you?
-I am ill, I feel very unwell
-I am pleased to meet you
-I am very sorry to disturb you
-I caught a cold
-I caught a cold and cough the whole morning
-I couldn't sleep
-I don't care about it
-I don't feel well
-I don't have money
-I don't know
-I don't love you
-I don't think I have done anything wrong
-I don't understand
-I don't understand this expression (body language)
-I don't understand this expression (verbal)
-I don't understand what you mean
-I feel sorry about it
-I forgot my password
-I forgot your name
-I get headaches regularly
-I have a dream (ambition)
-I have a dream (sleep and dream)
-I have a fever of 39 degrees
-I have a question
-I have an idea
-I have many worries
-I have to go
-I have to return home now
-I hope you get well soon
-I like you
-I lost my wallet
-I miss you a lot
-I sent you a text message
-I want to know your point of view
-I will also sweep outside
-I will also wash plates
-I will be back in a second
-I will like a cup of coffee
-I will put chewing stick in my mouth
-I will put the remaining eba in the bin
-I will sweep the passage
-I will throw away the rubbish into the refuse dump
-I will use clean water to wash my face
-I will wash dirty clothes
-I work in a hospital
-I would like to buy a city map
-I would like to buy a pair of shoes
-I would like to drink water
-I would like to eat pounded yam and efo riro
-I would like to eat yam and egg
-I would like to exchange dollars
-I'm fine
-I'm not thirsty
-I'm sad
-I'm thirsty
-I'm very happy
-I'm very tired
-If I wake up in the morning
-Im very worried
-Indeed I can't do anything
-Is there anybody sitting on this seat
-It is 4 ó clock in the afternoon
-It really is like that
-Let have a rest for 10 min
-Let me hug you
-Let's go to the movie theater
-Let's go together
-Long time no see
-May I ask you a question
-My dream is to make the world a better place
-My mobile phone is not working
-My name is
-My skin is very sensitive
-My stomach hurts, what shall I do
-Never mind
-One coffee, please
-Please be quiet
-Please call ahead to make a reservation
-Please close the door
-Please come in
-Please don't make so much noise
-Please just continue
-Please listen
-Please say it
-Please show me this one
-Please sit down
-Please switch off the music
-Please switch off your mobile phone
-Please wait for me for a little while
-Please walk a little bit slower
-Pour
-Regardless of what you say
-See you later
-See you soon
-See you tomorrow
-Smoking is prohibited
-So the house can be cleaned
-Soft
-Sorry, I can't help you
-Stop crying
-Thank you (elder)
-Thank you (younger)
-The weather is very good
-This is a very good idea
-This is a very interesting topic
-This year I don't want to celebrate
-Today I am very busy
-Today I have no time to
-Today it is very hot
-Today the sun is shining
-Tomorrow I want to meet my dad
-Tomorrow I will send you an email
-Tomorrow is Wednesday
-Tomorrow is my birthday
-Too expensive
-Waiter please bring me the menu
-Waiter the bill please
-What day is it today
-What did you do yesterday
-What did you just say
-What do you do for work?
-What do you do?
-What do you recommend?
-What do you want to do tomorrow?
-What happened?
-What have you done today?
-What is that?
-What is the meaning of......?
-What is the way to the post office
-What is your name?
-What is your opinion?
-What is your phone number
-What will you do tomorrow?
-What will you like to buy?
-What will you like to eat
-What would you like to drink?
-When will you return my money
-Where are you going
-Where are you?
-Where did you go yesterday's evening?
-Where did you lose your mobile phone?
-Where do you work?
-Where is the closest pharmacy
-Where is the hospital?
-Who are you?
-Who is the owner of this dog?
-Who is this?
-Who is your favorite actor?
-Who is your favorite writer?
-Why are you laughing
-Will it rain today?
-Work is good
-Work is not good
-Would you like to eat this evening
-Wow that's expensive
-Yesterday I caught a cold
-You are an idiot
-You are awesome
-You are handsome
-You are right
-You are too funny
-You are very beautiful
-You are wrong
-You work too much
-Your sentence is wrong
+I am certain
+I am not ready yet
+I am not sure
+I am thirsty
+I have been here for three days
+I need to go home
+I think it is very good
+I'll be going home soon
+I'm a yoruba boy
+I'm married
+I'm tired
+change your clothes
+clean the kitchen
+has he arrived
+is that enough
+just for a moment
+just for a while
+let me check
+let me think about it
+lets play
+lets sing
+may I speak to miss labake
+stand up
+stand up
+time has gone
+time is going
+to condemn
+to condemn
+to justify
+to justify
+we have never seen that before

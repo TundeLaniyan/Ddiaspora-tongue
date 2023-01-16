@@ -1,6 +1,7 @@
 export default {
   HOME: 'Home',
   LEARNING: 'My Learning',
+  SELCT: 'Lesson Seclect',
   ACCOUNT: 'Account',
   WELCOME: 'Welcome',
   SIGNIN: 'Log in',

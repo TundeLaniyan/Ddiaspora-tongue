@@ -1,5 +1,7 @@
 import React, { ReactElement, useEffect, useState } from 'react';
 import { View, StyleSheet, Text, TouchableOpacity } from 'react-native';
+import { useDispatch } from 'react-redux';
+import { enableNaviagtion } from '../../store/exercise';
 
 import colors from '../config/colors';
 import routes from '../navigation/routes';
@@ -9,7 +11,9 @@ type Props = {
   navigation: any;
 };
 
+
 function EndGameScreen({ navigation, route: { params: {percentage}} }: Props): ReactElement<Props> {
+  const dispatch = useDispatch()
   const [opacity, setOpacity] = useState(0);
 
   useEffect(() => {
@@ -19,7 +23,10 @@ function EndGameScreen({ navigation, route: { params: {percentage}} }: Props): R
     setTimeout(() => clearInterval(interval), 6000);
   }, [])
 
-  const handlePress = () => navigation.navigate(routes.TASK);
+  const handlePress = () => {
+    navigation.navigate(routes.TASK);
+    dispatch(enableNaviagtion());
+  }
 
   const result = percentage >= 75 ? 
     { color: colors.darkGreen , text: "CONGRATULATION" }: 

@@ -2,6 +2,9 @@ const assetFolder = __dirname + '/app/assets';
 const imageFolder = __dirname + '/app/assets/images';
 const audioFolder = __dirname + '/app/assets/audio/yoruba';
 const fs = require('fs');
+const toCamelcase = require('./app/utilities/toCamelcase');
+// import toCamelcase from './app/utilities/toCamelcase';
+
 
 const assetArray = [];
 const imageArray = [];
@@ -10,19 +13,19 @@ const unique = new Set();
 
 let display = [];
 
-function toCamelcase(str) {
-  return str.toLowerCase()
-  .replaceAll('(', '$')
-  .replaceAll(')', '$')
-  .replaceAll(':', '$')
-  .replace(new RegExp(/[-+?,_]+/, 'g'), ' ')
-  .replace(
-    new RegExp(/\s+(.)(\w*)/, 'g'),
-    ($1, $2, $3) => `${$2.toUpperCase() + $3.toLowerCase()}`
-  )
-  .replace("'", "")
-  .replace(new RegExp(/\w/), (s, index) => index > 0 ? s.toUpperCase() : s);
-}
+// function toCamelcase(str) {
+//   return str.toLowerCase()
+//   .replaceAll('(', '$')
+//   .replaceAll(')', '$')
+//   .replaceAll(':', '$')
+//   .replace(new RegExp(/[-+?,_]+/, 'g'), ' ')
+//   .replace(
+//     new RegExp(/\s+(.)(\w*)/, 'g'),
+//     ($1, $2, $3) => `${$2.toUpperCase() + $3.toLowerCase()}`
+//   )
+//   .replace("'", "")
+//   .replace(new RegExp(/\w/), (s, index) => index > 0 ? s.toUpperCase() : s);
+// }
 
 const writeList = (file, arr) => {
   const obj = {
@@ -48,8 +51,8 @@ const writeList = (file, arr) => {
   }
 }
 
-fs.readdirSync(imageFolder).sort().reverse().forEach(file => writeList(file, imageArray)); unique.clear(); console.log(display); display = [];
-fs.readdirSync(audioFolder).sort().forEach(file => writeList(file, audioArray)); unique.clear(); console.log(display); display = [];
+fs.readdirSync(imageFolder).sort().reverse().forEach(file => writeList(file, imageArray)); unique.clear(); console.log(display.sort()); display = [];
+fs.readdirSync(audioFolder).sort().forEach(file => writeList(file, audioArray)); unique.clear(); console.log(display.sort()); display = [];
 fs.readdirSync(assetFolder).sort().reverse().forEach(file => writeList(file, assetArray));
 
 fs.writeFileSync(__dirname + '/app/assets/index.js', assetArray.join('\n'));

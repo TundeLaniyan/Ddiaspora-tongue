@@ -59,13 +59,14 @@ const RapidScreen = memo(function ({ navigation }: Props): ReactElement<Props> {
   useEffect(() => {
     if (next < gameLimit) nextRound();
     else {
-      const result =
-        (100 * correct) / ((2 * cardLimit - gameLimit + 1) * (gameLimit / 2)) +
-        incorrect;
+      // const result =
+      //   (100 * correct) / ((2 * cardLimit - gameLimit + 1) * (gameLimit / 2)) +
+      //   incorrect;
+      const result = (100 * correct) / ((gameLimit/2) * ((2 * cardLimit) - gameLimit - 3) + incorrect)
       Game.endGame({
         result,
         exercise: "RAPID", 
-        setProgress: (progress: any) => dispatch(setProgress(progress)),
+        dispatch,
         navigation
       });
     }
@@ -75,7 +76,7 @@ const RapidScreen = memo(function ({ navigation }: Props): ReactElement<Props> {
   useEffect(() => {
     clearInterval(intervalID);
     const intervalId: any = setInterval(() => {
-      if (ref.current.pauseInterval) return;
+      if (next >= gameLimit || ref.current.pauseInterval) return;
       if (ref.current.percent <= 0) {
         clearInterval(intervalId);
         setNext((prev) => prev + 1);

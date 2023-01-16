@@ -5,6 +5,8 @@ import Utilities from "./utilities";
 import { setSound } from "../../store/sound";
 import React, { Dispatch } from "react";
 import routes from "../navigation/routes";
+import { disableNavigation } from "../../store/exercise";
+import { setProgress } from "../../store/progress";
 
 
 type answerQuestion = { state: number[], cardLimit: number, silent?: boolean, dispatch?: any }; 
@@ -13,7 +15,7 @@ type answerQuestions = { state: number[], results: any[], dispatch?: any }
 type language = 'English' | 'Yoruba';
 type GenerateCards = { cardLimit: number, totalLength: number, currentLength?: number }
 type PlayCards = { cardLimit: number, setSoundState: any, gameSpeed: number, cards: number[], autoPlay: boolean, dispatch: any, setCleanUp: any, }
-type EndGame = { result: number, exercise: string, navigation: any, setProgress: (arg: any) => { payload: any; type: string; }}
+type EndGame = { result: number, exercise: string, navigation: any, dispatch: Dispatch<any>}
 type SetResult = { input: number; answer: ResultAnswer; results: any[]; state: number[]; }
 type ResultAnswer = "correct" | "incorrect"
 
@@ -62,16 +64,16 @@ class GameLogic {
     return gameSpeed * cardLimit;
     // this.delay(gameSpeed * cardLimit, () => setSoundState(cardLimit));
   };
-  endGame({ result, exercise, navigation, setProgress }: EndGame): void {
-    console.log("endGame called");
-    
-    setProgress({ 
+  endGame({ result, exercise, navigation, dispatch }: EndGame): void {
+    console.log("endGame")
+    dispatch(disableNavigation());
+    dispatch(setProgress({ 
       result,
       exercise,
       category: lesson[this.category].title,
       lecture: lesson[this.category].subLesson[this.lecture].title,
       timestamp: Date.now() 
-    });
+    }));
     navigation.push(routes.ENDGAME, { percentage: result });
   };
   async answerQuestion({ state, cardLimit, silent, dispatch }: answerQuestion): Promise<number> {

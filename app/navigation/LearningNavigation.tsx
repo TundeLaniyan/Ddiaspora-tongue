@@ -12,17 +12,19 @@ import ReadingScreen from '../screen/ReadingScreen';
 import RapidScreen from '../screen/RapidScreen';
 import ExerciseScreen from '../screen/ExerciseScreen';
 import EndGameScreen from '../screen/EndGameScreen';
+import { useSelector } from 'react-redux';
 
 const Stack = createStackNavigator();
 
 const LearningNavigation = () => {
+  const { navigation } = useSelector((state: any) => state.entities.exercise)
 
   return (
     <Stack.Navigator 
-      initialRouteName={routes.LEARNING} 
-      screenOptions={{ headerTitleStyle: styles.headerTitle }}
+      initialRouteName={routes.SELCT} 
+      screenOptions={{ headerShown: navigation, headerTitleStyle: styles.headerTitle }}
     >
-      <Stack.Screen name={routes.LEARNING} component={LessonSelectionScreen} />
+      <Stack.Screen name={routes.SELCT} component={LessonSelectionScreen} />
       <Stack.Screen name={routes.TASK} component={TaskSelectionScreen} />
       <Stack.Screen name={routes.EASY} component={EasyScreen} />
       <Stack.Screen name={routes.MEMORY} component={MemoryScreen} />
